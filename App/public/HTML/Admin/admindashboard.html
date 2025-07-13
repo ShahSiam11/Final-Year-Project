@@ -1,0 +1,433 @@
+<!-- 
+  Copyright (c) 2025 Ahsan Latif (@GittyCandy)  
+  All Rights Reserved.  
+  
+  Unauthorized access, use, reproduction, modification, distribution,  
+  or creation of derivative works based on this code is strictly prohibited  
+  without the prior explicit written permission of the owner.  
+  
+  Violators may be subject to legal action.  
+
+  Applies to all Admin Pages
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/imagess/attendeaselogo.png">
+  <title>Admin Portal</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="/CSS/Admin/admindashboard.css">
+</head>
+
+
+<body>
+   <div class="container">
+
+    <aside>
+      <div class="top">
+        <h2 class="logo1"> AttendEase </h2>
+        <div class="close" id="close_btn">
+          <span class="material-symbols-sharp">close</span>
+        </div>
+      </div>
+      <div class="sidebar">
+        <a href="/Admin_Dashboard" class="active"><lord-icon src="https://cdn.lordicon.com/cnpvyndp.json" colors="primary:#D455E6"class="icon"></lord-icon><h3>Admin Dashboard</h3></a>
+        <a href="/Configure" class="nav-link"><lord-icon src="https://cdn.lordicon.com/pflszboa.json" colors="primary:#D455E6"class="icon"></lord-icon><h3>Configure</h3></a>
+        <a href="/Info_Logs" class="nav-link"><lord-icon src="https://cdn.lordicon.com/lyrrgrsl.json" colors="primary:#D455E6"class="icon"></lord-icon><h3>Info Logs</h3></a>
+        <a href="/Admin_Management" class="nav-link"><lord-icon src="https://cdn.lordicon.com/kddybgok.json" colors="primary:#D455E6"class="icon"></lord-icon><h3>User Management</h3></a>
+        <a href="#" class="nav-link"><lord-icon src="https://cdn.lordicon.com/vspbqszr.json" colors="primary:#D455E6"class="icon"></lord-icon><h3>Reports</h3><span class="msg_count">14</span></a>
+        <a href="#" class="nav-link"><lord-icon src="https://cdn.lordicon.com/lecprnjb.json" colors="primary:#D455E6"class="icon"></lord-icon><h3>Settings</h3></a>
+        <a href="/" class="nav-link"><lord-icon src="https://cdn.lordicon.com/nqtddedc.json" colors="primary:#D455E6"class="icon"></lord-icon><h3>Logout</h3></a>
+      </div>
+    </aside>
+
+      <main>
+
+<div class="cardgreet">
+    <div class="greet">
+        <div class="expenses">
+            <h2 id="greeting">Welcome!</h2>
+        </div>
+        <div class="icon-container">
+            <div class="svg-container">
+            <!-- Add an icon here if needed -->
+           <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="186.000000pt" height="60.000000pt" viewBox="0 0 586.000000 560.000000" preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,560.000000) scale(0.100000,-0.100000)" fill="#D455E6" stroke="none">
+<path d="M2795 5449 c-481 -42 -1013 -254 -1325 -529 -81 -72 -287 -302 -377 -421 -106 -141 -193 -300 -180 -332 3 -7 58 -46 123 -86 66 -40 173 -106 239 -147 66 -41 124 -74 130 -74 18 0 68 59 165 195 51 72 101 140 112 152 12 12 18 29 15 37 -3 8 -35 36 -71 63 -80 60 -95 82 -72 115 75 107 301 280 491 375 341 171 643 245 1005 245 234 0 372 -19 599 -84 277 -79 484 -184 747 -378 l90 -67 138 144 c83 86 136 149 133 157 -6 14 -134 117 -222 177 -196 135 -423 248 -678 338 -291 102 -714 150 -1062 120z"/>
+<path d="M4803 4485 c-79 -69 -143 -130 -143 -136 0 -6 27 -43 59 -82 156 -189 320 -482 388 -695 29 -89 39 -111 52 -108 9 3 90 25 181 50 193 52 200 55 200 69 0 6 -21 72 -46 146 -57 169 -169 397 -255 521 -21 30 -64 93 -95 140 -50 75 -178 220 -193 220 -3 0 -70 -57 -148 -125z"/>
+<path d="M2885 4240 c-111 -16 -219 -50 -330 -105 -265 -132 -419 -334 -541 -709 -32 -97 -37 -129 -44 -251 -4 -77 -15 -174 -24 -215 -14 -58 -17 -102 -13 -195 6 -136 27 -220 84 -325 65 -121 112 -154 215 -152 l67 1 12 -37 c21 -67 70 -155 159 -287 48 -71 93 -148 101 -170 22 -65 16 -219 -11 -288 -26 -68 -87 -147 -150 -196 -63 -47 -63 -61 -2 -61 48 0 53 3 91 47 76 89 132 219 161 376 7 37 16 67 20 67 5 0 35 -17 67 -39 133 -88 279 -141 387 -141 148 0 282 77 396 227 50 66 60 66 60 3 0 -37 34 -183 55 -235 31 -78 69 -146 115 -203 43 -53 49 -57 93 -60 26 -2 47 1 47 5 0 4 -25 37 -55 71 -121 139 -192 353 -182 547 6 102 36 240 77 348 20 54 26 60 78 85 109 51 204 170 259 324 21 61 26 97 30 214 4 95 2 153 -6 177 -11 33 -63 89 -91 99 -9 3 -6 24 10 77 63 208 -35 445 -286 694 -161 159 -284 234 -464 281 -106 29 -284 41 -385 26z m264 -541 c94 -32 162 -80 276 -194 118 -119 188 -221 231 -339 27 -75 43 -173 26 -162 -16 10 -100 147 -113 184 -8 24 -30 45 -83 78 -149 97 -356 256 -356 275 0 26 -39 59 -70 59 -30 0 -64 -33 -74 -70 -5 -19 -50 -52 -202 -144 -120 -73 -213 -122 -240 -128 -34 -8 -45 -15 -50 -34 -3 -13 -3 -31 0 -40 6 -17 -133 -293 -148 -294 -15 0 2 191 23 257 45 138 117 248 242 368 97 93 156 136 236 171 100 44 199 48 302 13z m166 -352 c213 -166 210 -157 93 -282 -201 -216 -180 -197 -213 -185 -19 7 -41 28 -58 57 -27 44 -27 47 -12 80 18 38 13 65 -18 93 -19 18 -22 37 -30 171 -9 149 -9 150 14 175 12 13 30 24 38 24 9 0 93 -60 186 -133z m-291 101 c13 -18 16 -53 16 -169 0 -141 -1 -147 -25 -175 -28 -32 -31 -51 -14 -88 10 -20 8 -30 -10 -59 -30 -49 -71 -87 -93 -87 -12 0 -79 60 -170 151 -145 145 -150 152 -142 181 8 25 39 48 204 148 107 66 200 119 207 119 6 1 19 -9 27 -21z m492 -395 c-12 -139 -16 -163 -32 -163 -8 0 -23 -13 -32 -30 -18 -32 -85 -58 -160 -63 -32 -2 -37 1 -40 21 -4 26 10 45 131 176 51 54 98 107 105 118 26 36 34 20 28 -59z m-991 45 c49 -159 62 -271 34 -289 -8 -5 -51 -9 -96 -9 -76 0 -83 2 -83 20 0 23 122 289 133 290 4 0 9 -6 12 -12z m1105 -112 c30 -57 52 -107 49 -110 -13 -13 -122 -27 -131 -18 -15 15 1 256 16 243 6 -5 36 -57 66 -115z m-900 -36 l145 -139 -93 -1 -93 0 -36 37 c-30 30 -41 53 -60 122 -24 91 -28 121 -15 121 4 -1 72 -63 152 -140z m1290 130 c28 -15 38 -38 50 -116 16 -102 0 -182 -64 -307 -101 -199 -154 -257 -252 -272 l-40 -7 -13 -75 c-16 -96 -40 -164 -96 -276 -66 -130 -137 -227 -232 -317 -66 -62 -95 -83 -135 -95 -137 -40 -276 2 -467 142 -230 169 -365 333 -437 533 -15 41 -30 79 -35 84 -4 4 -21 -2 -37 -14 -27 -20 -34 -21 -66 -10 -45 15 -116 93 -155 171 -46 93 -65 194 -57 310 10 155 31 186 67 102 35 -81 40 -104 48 -233 9 -144 24 -188 80 -226 38 -26 97 -32 131 -14 11 6 31 27 44 46 l25 36 36 -71 c45 -91 149 -266 234 -396 43 -66 67 -114 71 -140 5 -40 5 -40 55 -45 37 -4 74 -20 145 -63 53 -31 101 -57 107 -57 7 0 21 -13 33 -30 12 -16 25 -30 30 -30 4 0 35 22 67 48 89 74 193 142 217 142 29 0 46 18 46 48 0 29 39 108 126 254 89 150 129 232 154 318 13 41 24 77 27 79 2 3 16 -7 31 -21 57 -54 110 -45 155 25 42 64 50 109 42 217 -11 143 -10 191 8 233 17 39 26 43 57 27z m-915 -166 c16 -34 21 -54 14 -66 -16 -30 -10 -68 16 -94 14 -14 25 -28 25 -32 0 -18 -78 -216 -86 -219 -5 -1 -33 47 -62 108 l-52 111 25 30 c28 33 31 54 13 93 -10 22 -9 31 7 58 27 48 57 79 68 68 5 -5 19 -30 32 -57z m592 -166 c-6 -97 -35 -218 -51 -218 -19 0 -110 46 -123 61 -9 12 -10 37 -1 112 l11 97 36 9 c62 16 75 19 105 20 l29 1 -6 -82z m-213 -46 c-1 -40 -4 -75 -7 -78 -8 -8 -43 13 -127 75 l-75 55 40 13 c22 6 69 11 105 10 l65 -2 -1 -73z m-894 53 c16 -19 51 -156 45 -175 -8 -24 -54 -47 -118 -59 -32 -6 -62 -13 -68 -16 -12 -8 -24 23 -49 122 -28 112 -27 131 8 136 71 11 170 7 182 -8z m238 6 c-1 -4 -35 -43 -75 -85 l-72 -77 -11 38 c-6 21 -13 57 -17 80 l-6 42 59 4 c33 2 74 4 92 5 19 1 32 -2 30 -7z m519 -104 c138 -107 140 -115 63 -282 -5 -11 -19 -44 -31 -72 -22 -55 -34 -65 -43 -35 -76 264 -126 457 -122 468 7 19 7 19 133 -79z m-433 74 c7 -11 -18 -151 -40 -221 -9 -30 -16 -70 -15 -87 2 -32 -35 -180 -49 -196 -4 -4 -30 54 -59 129 -69 181 -68 188 42 301 75 77 107 97 121 74z m75 -153 c45 -107 48 -120 27 -137 -11 -9 -22 -9 -49 3 -45 18 -61 47 -53 95 14 79 28 142 31 139 1 -2 21 -47 44 -100z m230 7 l24 -94 -24 -20 c-34 -28 -69 -35 -87 -17 -13 13 -11 27 19 120 18 58 36 106 39 106 3 0 16 -43 29 -95z m389 -76 c12 -5 22 -12 22 -16 0 -5 -47 -55 -105 -113 -58 -58 -105 -100 -105 -95 0 6 16 55 35 110 46 129 68 146 153 114z m-950 -6 c18 -17 120 -299 110 -308 -2 -2 -72 57 -156 131 -171 150 -166 133 -52 173 70 24 74 25 98 4z m572 -88 c0 -11 -124 -175 -132 -175 -4 0 -8 22 -8 48 0 41 5 52 33 79 17 17 41 35 52 41 21 12 55 16 55 7z m-225 -38 c47 -30 50 -35 53 -78 2 -32 -2 -50 -13 -59 -8 -7 -17 -11 -19 -9 -3 4 -97 146 -110 167 -15 24 39 12 89 -21z m292 -72 c12 -43 23 -82 23 -86 0 -3 -14 -12 -30 -19 -31 -13 -126 -8 -141 7 -10 10 102 184 115 180 5 -2 20 -39 33 -82z m-352 -10 c26 -41 44 -78 41 -83 -7 -11 -134 -37 -142 -29 -8 7 39 187 48 187 3 0 28 -34 53 -75z m617 13 c-16 -29 -63 -111 -103 -183 l-73 -130 -13 32 c-7 18 -15 50 -19 72 -6 37 -3 43 42 92 50 53 180 169 190 169 3 0 -8 -24 -24 -52z m-898 -81 l118 -113 -7 -62 c-4 -38 -12 -62 -19 -62 -12 0 -141 190 -199 292 -50 87 -37 80 107 -55z m363 -67 c32 -25 50 -25 86 -2 24 16 35 17 86 8 33 -6 63 -14 67 -18 3 -4 -8 -15 -25 -25 -18 -10 -55 -33 -83 -51 -29 -19 -61 -31 -76 -30 -15 1 -36 -3 -48 -10 -18 -9 -33 -4 -103 40 -45 28 -80 55 -78 62 2 6 32 18 68 28 83 21 77 21 106 -2z m291 -67 c27 -70 35 -114 24 -125 -7 -7 -12 -19 -12 -27 0 -9 -42 -45 -94 -79 -81 -55 -97 -62 -115 -53 -12 7 -21 19 -21 29 0 9 -3 40 -6 67 -6 46 -3 54 22 85 25 30 168 130 185 130 4 0 11 -12 17 -27z m-445 -19 c80 -40 177 -113 188 -141 10 -27 12 -126 3 -136 -16 -16 -230 107 -249 144 -20 38 -19 159 1 159 3 0 28 -12 57 -26z"/>
+<path d="M1805 4063 c-39 -2 -73 -9 -77 -16 -11 -18 -10 -271 2 -301 21 -57 30 -25 30 114 0 161 -1 160 97 160 60 0 172 15 181 25 3 3 3 7 1 10 -8 7 -159 13 -234 8z"/>
+<path d="M4112 4059 c-63 -4 -116 -10 -120 -14 -17 -16 34 -25 155 -25 l131 0 6 -27 c3 -16 8 -73 11 -128 7 -110 12 -135 26 -135 5 0 9 72 9 170 l0 170 -52 -1 c-29 -1 -104 -5 -166 -10z"/>
+<path d="M653 3673 c-125 -167 -384 -576 -464 -734 -17 -34 -28 -67 -25 -75 4 -10 28 -14 93 -15 48 0 110 -4 138 -7 l50 -7 7 -50 c3 -27 11 -102 18 -165 69 -711 432 -1369 1000 -1811 478 -372 1131 -573 1726 -530 276 20 470 59 749 153 66 22 125 45 131 52 9 8 5 27 -17 73 -70 149 -141 298 -143 301 -2 1 -59 -17 -127 -41 -192 -68 -459 -124 -635 -133 -235 -13 -599 41 -825 122 -133 48 -405 187 -489 250 -25 18 -89 63 -142 99 -54 37 -114 87 -135 113 -21 26 -70 79 -110 117 -39 39 -93 102 -120 142 -26 39 -72 105 -100 146 -88 126 -204 365 -252 517 -42 134 -86 361 -97 500 -5 74 -4 88 12 108 19 22 21 22 100 10 65 -9 93 -9 138 1 31 7 56 14 56 17 0 2 -65 131 -145 287 -80 155 -184 360 -232 454 -49 95 -93 173 -99 173 -5 0 -33 -30 -61 -67z"/>
+<path d="M5393 3261 c-100 -26 -185 -50 -189 -53 -3 -4 0 -40 7 -80 21 -110 18 -427 -5 -558 -23 -137 -58 -283 -94 -398 -27 -84 -28 -93 -13 -101 9 -5 77 -34 151 -64 74 -30 152 -62 172 -71 35 -15 38 -15 46 2 17 32 61 175 99 322 l38 145 0 450 c0 392 -2 450 -15 451 -8 1 -97 -19 -197 -45z"/>
+<path d="M4368 1723 l-3 -148 -115 -8 c-141 -9 -167 -14 -152 -29 7 -7 64 -13 142 -16 110 -3 135 -1 156 13 l25 16 -3 150 c-3 148 -8 168 -40 169 -4 0 -9 -66 -10 -147z"/>
+<path d="M4916 1747 c-195 -303 -437 -552 -701 -723 -33 -21 -62 -40 -64 -41 -3 -2 145 -316 174 -370 1 -2 24 10 52 25 98 52 376 274 498 396 135 136 352 408 403 506 18 36 38 69 43 75 13 13 11 51 -3 63 -11 9 -334 162 -340 162 -2 0 -30 -42 -62 -93z"/>
+<path d="M1861 1736 c-28 -71 -41 -264 -22 -295 7 -11 33 -13 138 -8 70 3 136 9 146 12 50 20 -11 35 -145 35 l-88 0 0 140 c0 137 -9 171 -29 116z"/>
+</g>
+</svg>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+              <div class="insights">
+        <!-- Sales (CPU Usage) -->
+        <div class="sales">
+            <lord-icon
+    src="https://cdn.lordicon.com/jfwzwlls.json"
+    trigger="hover"
+    colors="primary:#D455E6"
+    style="width:65px;height:65px">
+</lord-icon>
+            <div class="middle">
+                <div class="left">
+                    <h3>CPU Usage</h3>
+                    <h1 id="cpu-usage">0%</h1>
+                </div>
+                <div class="progress">
+                    <svg>
+                        <circle id="progress-circle-cpu" r="30" cy="40" cx="40"></circle>
+                    </svg>
+                    <div class="number">
+                        <p id="cpu-percentage">0%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Expenses (Memory Usage) -->
+        <div class="expenses">
+            <lord-icon
+    src="https://cdn.lordicon.com/jfwzwlls.json"
+    trigger="hover"
+    colors="primary:#D455E6"
+    style="width:65px;height:65px">
+</lord-icon>
+            <div class="middle">
+                <div class="left">
+                    <h3>Memory Usage</h3>
+                    <h1 id="memory-usage">0%</h1>
+                </div>
+                <div class="progress">
+                    <svg>
+                        <circle id="progress-circle-memory" r="30" cy="40" cx="40"></circle>
+                    </svg>
+                    <div class="number">
+                        <p id="memory-percentage">0%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Income (Disk Usage) -->
+        <div class="income">
+            <lord-icon
+    src="https://cdn.lordicon.com/jfwzwlls.json"
+    trigger="hover"
+    colors="primary:#D455E6"
+    style="width:65px;height:65px">
+</lord-icon>
+            <div class="middle">
+                <div class="left">
+                    <h3>Disk Usage</h3>
+                    <h1 id="disk-usage">0%</h1>
+                </div>
+                <div class="progress">
+                    <svg>
+                        <circle id="progress-circle-disk" r="30" cy="40" cx="40"></circle>
+                    </svg>
+                    <div class="number">
+                        <p id="disk-percentage">0%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="graph_container">
+        <h2>Analytics</h2>
+        <canvas id="attendanceChart" width="400" height="200"></canvas>
+    </div>
+
+      </main>
+
+    <div class="right">
+
+<div class="top">
+   <button id="menu_bar">
+     <span class="material-symbols-sharp">menu</span>
+   </button>
+
+
+<div class="theme-toggler">
+  <label class="switch">
+    <!-- Using the same id ("input") so that your existing JS continues to work -->
+    <input id="input" type="checkbox" />
+    <div class="slider round">
+      <div class="sun-moon">
+        <!-- Moon dots and light rays (SVGs for the animated sun/moon) -->
+        <svg id="moon-dot-1" class="moon-dot" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="50"></circle>
+        </svg>
+        <svg id="moon-dot-2" class="moon-dot" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="50"></circle>
+        </svg>
+        <svg id="moon-dot-3" class="moon-dot" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="50"></circle>
+        </svg>
+        <svg id="light-ray-1" class="light-ray" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="50"></circle>
+        </svg>
+        <svg id="light-ray-2" class="light-ray" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="50"></circle>
+        </svg>
+        <svg id="light-ray-3" class="light-ray" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="50"></circle>
+        </svg>
+        <!-- Clouds (two types to allow color variations) -->
+        <svg id="cloud-1" class="cloud-dark" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="50"></circle>
+        </svg>
+        <svg id="cloud-2" class="cloud-dark" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="50"></circle>
+        </svg>
+        <svg id="cloud-3" class="cloud-dark" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="50"></circle>
+        </svg>
+        <svg id="cloud-4" class="cloud-light" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="50"></circle>
+        </svg>
+        <svg id="cloud-5" class="cloud-light" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="50"></circle>
+        </svg>
+        <svg id="cloud-6" class="cloud-light" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="50"></circle>
+        </svg>
+      </div>
+      <div class="stars">
+        <svg id="star-1" class="star" viewBox="0 0 20 20">
+          <path d="M 0 10 C 10 10,10 10, 0 10 C 10 10, 10 10, 10 20 C 10 10, 10 10, 20 10 C 10 10, 10 10, 10 0 C 10 10,10 10, 0 10 Z"></path>
+        </svg>
+        <svg id="star-2" class="star" viewBox="0 0 20 20">
+          <path d="M 0 10 C 10 10,10 10, 0 10 C 10 10, 10 10, 10 20 C 10 10, 10 10, 20 10 C 10 10, 10 10, 10 0 C 10 10,10 10, 0 10 Z"></path>
+        </svg>
+        <svg id="star-3" class="star" viewBox="0 0 20 20">
+          <path d="M 0 10 C 10 10,10 10, 0 10 C 10 10, 10 10, 10 20 C 10 10, 10 10, 20 10 C 10 10, 10 10, 10 0 C 10 10,10 10, 0 10 Z"></path>
+        </svg>
+        <svg id="star-4" class="star" viewBox="0 0 20 20">
+          <path d="M 0 10 C 10 10,10 10, 0 10 C 10 10, 10 10, 10 20 C 10 10, 10 10, 20 10 C 10 10, 10 10, 10 0 C 10 10,10 10, 0 10 Z"></path>
+        </svg>
+      </div>
+    </div>
+  </label>
+</div>
+
+
+    <div class="profile">
+       <div class="info">
+           <b><p id="name"></p></b>
+           <p id="role"></p>
+           <small class="text-muted"></small>
+       </div>
+       <!--<div class="profile-photo">
+         <img src="./images/profile-1.jpg" alt=""/>
+       </div>-->
+    </div>
+</div>
+
+<div class="sales-analytics">
+  <center><h2>Capture Faces</h2></center>
+  <div class="card face-upload">
+    <div class="card-header">
+      <h3>Upload Face Data</h3>
+      <p>Image format Name_ID</p>
+      <p>("John Doe_7821821")</p>
+    </div>
+    <div class="card-body">
+    <form id="">
+        <div  id="startButton"></div>
+        <div id="stopButton" disabled></div>
+    </form>
+      <label for="faceFolder" class="drop-zone" id="dropZone">
+
+<lord-icon
+    src="https://cdn.lordicon.com/jkzgajyr.json"
+    trigger="hover"
+    colors="primary:#D455E6"
+    style="width:50px;height:50px">
+</lord-icon>
+        <p>Drag & drop a folder here or <span class="upload-text">click to upload</span></p>
+      </label>
+      <input type="file" id="faceFolder" webkitdirectory directory multiple hidden required>
+      <button type="submit" id="uploadButton">
+        <span class="material-symbols-sharp">cloud_upload</span> Upload & Train AI
+      </button>
+      <!-- Separate text area for image count -->
+      <div id="imageCountDisplay"></div>
+      <!-- Scrollable progress container -->
+      <div id="progressContainer">
+        <p id="uploadStatus"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+</div>
+
+</div>
+
+
+   <script>document.addEventListener("DOMContentLoaded", () => {
+  const dropZone = document.getElementById("dropZone");
+  const fileInput = document.getElementById("faceFolder");
+  const uploadButton = document.getElementById("uploadButton");
+  const progressArea = document.getElementById("uploadStatus");
+  const imageCountDisplay = document.getElementById("imageCountDisplay");
+
+  // Drag and drop functionality
+  dropZone.addEventListener("dragover", (e) => {
+    e.preventDefault();
+    dropZone.classList.add("dragover");
+  });
+
+  dropZone.addEventListener("dragleave", () => {
+    dropZone.classList.remove("dragover");
+  });
+
+  dropZone.addEventListener("drop", (e) => {
+    e.preventDefault();
+    dropZone.classList.remove("dragover");
+
+    const items = e.dataTransfer.items;
+    const fileList = new DataTransfer(); // Create a new file list
+
+    // Process each item (file or folder)
+    const processEntry = (entry) => {
+      return new Promise((resolve) => {
+        if (entry.isFile) {
+          entry.file((file) => {
+            fileList.items.add(file); // Add the file to the list
+            resolve();
+          });
+        } else if (entry.isDirectory) {
+          const reader = entry.createReader();
+          reader.readEntries((entries) => {
+            const entryPromises = entries.map(processEntry);
+            Promise.all(entryPromises).then(resolve);
+          });
+        }
+      });
+    };
+
+    // Process all items
+    const processAllEntries = async () => {
+      for (let i = 0; i < items.length; i++) {
+        const entry = items[i].webkitGetAsEntry();
+        if (entry) {
+          await processEntry(entry);
+        }
+      }
+      fileInput.files = fileList.files; // Update the file input with the new file list
+      updateImageCount(); // Update the image count display
+    };
+
+    processAllEntries();
+  });
+
+  // Click to open file dialog
+  dropZone.addEventListener("click", () => fileInput.click());
+
+  // Update image count when files are selected via file input
+  fileInput.addEventListener("change", () => {
+    updateImageCount(); // Show the number of images selected
+  });
+
+  // Function to update the number of images
+  function updateImageCount() {
+    const files = fileInput.files;
+    if (files.length > 0) {
+      imageCountDisplay.innerText = `${files.length} image(s) ready for upload.`;
+    } else {
+      imageCountDisplay.innerText = "No images selected.";
+    }
+  }
+
+  // Upload and train functionality
+  uploadButton.addEventListener("click", async () => {
+    const files = fileInput.files;
+    if (!files.length) return;
+
+    uploadButton.classList.add("processing");
+    progressArea.innerText = "Uploading and processing...";
+
+    const formData = new FormData();
+    for (const file of files) {
+      formData.append("faces", file);
+    }
+
+    try {
+      const response = await fetch("/upload", {
+        method: "POST",
+        body: formData,
+      });
+
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+
+      const processStream = ({ done, value }) => {
+        if (done) {
+          uploadButton.classList.remove("processing");
+          deleteUploadedFiles(files); // Delete uploaded files after processing
+          progressArea.innerHTML += `<div class="resultItem">Processing complete. Images deleted.</div>`;
+          return;
+        }
+
+        const text = decoder.decode(value);
+        const lines = text.split("\n\n");
+        lines.forEach((line) => {
+          if (line.startsWith("data: ")) {
+            const message = line.replace("data: ", "");
+            const [name, status] = message.split("||");
+            progressArea.innerHTML += `<div class="resultItem">${name}: ${status}</div>`;
+            progressArea.scrollTop = progressArea.scrollHeight;
+          }
+        });
+
+        reader.read().then(processStream);
+      };
+
+      reader.read().then(processStream);
+    } catch (error) {
+      console.error("Upload failed:", error);
+      progressArea.innerText += "Upload failed.\n";
+      uploadButton.classList.remove("processing");
+    }
+  });
+
+  // Function to delete uploaded files after processing
+  function deleteUploadedFiles(files) {
+    for (const file of files) {
+      const filePath = URL.createObjectURL(file);
+      URL.revokeObjectURL(filePath); // Release the object URL
+      console.log(`Deleted: ${file.name}`);
+    }
+    fileInput.value = ""; // Clear the file input
+    updateImageCount(); // Reset the image count display
+  }
+});
+   </script>
+
+<script src="https://cdn.jsdelivr.net/npm/raphael/raphael.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/justgage/justgage.min.js"></script>
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   <script src="/JavaScript/Admin/admindashboard.js"></script>
+</body>
+</html>

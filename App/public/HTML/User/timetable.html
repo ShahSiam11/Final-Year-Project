@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" sizes="32x32" href="/imagess/attendeaselogo.png">
+  <title>Student Portal</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="/CSS/User/timetable.css">
+</head>
+<body>
+   <div class="container">
+    <aside>
+      <div class="top">
+        <h2 class="logo1"> AttendEase </h2>
+        <div class="close" id="close_btn">
+          <span class="material-symbols-sharp">close</span>
+        </div>
+      </div>
+      <div class="sidebar">
+        <a href="/Dashboard" class="nav-link"><lord-icon src="https://cdn.lordicon.com/cnpvyndp.json" colors="primary:#D455E6"class="icon"></lord-icon><h3>Dashboard</h3></a>
+        <a href="/TimeTable" class="active"><lord-icon src="https://cdn.lordicon.com/abfverha.json"  colors="primary:#D455E6"class="icon"></lord-icon><h3>Time Table</h3></a>
+        <a href="/Analysis" class="nav-link"><lord-icon src="https://cdn.lordicon.com/whrxobsb.json"  colors="primary:#D455E6"class="icon"></lord-icon><h3>Analysis</h3></a>
+        <a href="/Profile" class="nav-link"><lord-icon src="https://cdn.lordicon.com/hrjifpbq.json" colors="primary:#D455E6" class="icon"></lord-icon><h3>Profile</h3></a>
+        <a href="/Notification" class="nav-link"><lord-icon src="https://cdn.lordicon.com/vspbqszr.json" colors="primary:#D455E6" class="icon"></lord-icon><h3>Notifications</h3><span class="msg_count" id="unread-count">14</span></a>
+        <a href="/Settings" class="nav-link"><lord-icon src="https://cdn.lordicon.com/lecprnjb.json" colors="primary:#D455E6" class="icon"></lord-icon><h3>Settings</h3></a>
+        <a href="/" class="nav-link"><lord-icon src="https://cdn.lordicon.com/nqtddedc.json" colors="primary:#D455E6" class="icon"></lord-icon><h3>Logout</h3></a>
+      </div>
+    </aside>
+
+  <main>
+       <div class="recent-order" id="calendar-container">
+      <!-- 1) HEADER (DYNAMIC) -->
+      <div class="calendar-header" id="calendar-header">
+        <div class="month-year" id="month-year-label"></div>
+        <div class="days-row" id="days-row"></div>
+      </div>
+      <!-- 2) CALENDAR BODY -->
+      <div class="calendar-body">
+        <!-- TIME COLUMN (left) -->
+        <div class="time-column" id="time-column"></div>
+        <!-- WRAPPER FOR ALL DAY COLUMNS -->
+        <div class="day-columns" id="day-columns"></div>
+      </div>
+    </div>
+
+<!-- 3) MODAL FOR EVENT ENTRY -->
+<div id="modal-overlay">
+  <div id="modal-box">
+    <div id="modal-time-range" style="margin-bottom:10px;"></div>
+    <input type="text" id="event-title" placeholder="Event name..." />
+
+    <!-- Notification Email -->
+    <label for="event-email">Notification Email:</label>
+    <input type="email" id="event-email" placeholder="Enter email for reminders">
+
+    <!-- Notification Timing -->
+    <label for="notification-timing">Notify (minutes before):</label>
+    <input type="number" id="notification-timing" placeholder="5" value="5" min="0">
+
+    <br />
+    <button id="save-event">Save</button>
+    <button id="cancel-event">Cancel</button>
+  </div>
+</div>
+
+  </main>
+
+    <div class="right">
+
+<div class="top">
+   <button id="menu_bar">
+<lord-icon
+    src="https://cdn.lordicon.com/nizfqlnk.json"
+    trigger="hover"
+    colors="primary:#D455E6"
+    style="width:40px;height:40px">
+</lord-icon>
+   </button>
+   <div class="theme-toggler">
+     <span class="material-symbols-sharp active">light_mode</span>
+     <span class="material-symbols-sharp">dark_mode</span>
+   </div>
+    <div class="profile">
+       <div class="info">
+           <b><p id="name"></p></b>
+           <p id="role"></p>
+           <small class="text-muted"></small>
+       </div>
+       <!--<div class="profile-photo">
+         <img src="./images/profile-1.jpg" alt=""/>
+       </div>-->
+    </div>
+</div>
+
+
+           </div>
+   </div>
+  <script>
+        /************************************************
+     * CONFIG: Dynamic generation of days/hours
+     ************************************************/
+
+     function toLocalDateString(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+const today = new Date();
+const dayOfWeek = today.getDay() === 0 ? 7 : today.getDay(); // Treat Sunday as 7
+const startDate = new Date(today);
+startDate.setDate(today.getDate() - dayOfWeek + 1);
+    const numberOfDays = 7; // Mon-Sun
+    const hourHeight = 60; // each hour = 60px
+
+   function generateDays(start, count) {
+  const days = [];
+  const tempDate = new Date(start);
+  for (let i = 0; i < count; i++) {
+    days.push({
+      date: new Date(tempDate),
+      label: tempDate.toLocaleDateString("en-US", { weekday: "short", day: "numeric" }),
+      isToday: isSameDay(tempDate, new Date()),
+    });
+    tempDate.setDate(tempDate.getDate() + 1);
+  }
+  return days;
+}
+    function isSameDay(d1, d2) {
+      return d1.getFullYear() === d2.getFullYear() &&
+             d1.getMonth() === d2.getMonth() &&
+             d1.getDate() === d2.getDate();
+    }
+    function generateHours() {
+      const hours = [];
+      for (let h = 0; h < 24; h++) {
+        hours.push(`${h}:00`);
+      }
+      return hours;
+    }
+
+    const days = generateDays(startDate, numberOfDays);
+    const hours = generateHours();
+
+    /************************************************
+     * RENDER HEADER & TIME COLUMN
+     ************************************************/
+    document.getElementById("month-year-label").textContent = startDate.toLocaleDateString("en-US", { month: "long", year: "numeric" });
+    const daysRow = document.getElementById("days-row");
+
+    days.forEach((d) => {
+      const dayDiv = document.createElement("div");
+      dayDiv.classList.add("day-label");
+      if (d.isToday) dayDiv.classList.add("current");
+      dayDiv.textContent = d.label;
+      daysRow.appendChild(dayDiv);
+    });
+    const timeColumn = document.getElementById("time-column");
+    hours.forEach((h) => {
+      const slot = document.createElement("div");
+      slot.classList.add("time-slot");
+      slot.textContent = h;
+      timeColumn.appendChild(slot);
+    });
+
+    /************************************************
+     * RENDER DAY COLUMNS
+     ************************************************/
+    const dayColumnsWrapper = document.getElementById("day-columns");
+days.forEach((d) => {
+  const col = document.createElement("div");
+  col.classList.add("day-column");
+  col.dataset.date = toLocalDateString(d.date);
+
+      const dayContent = document.createElement("div");
+      dayContent.classList.add("day-content");
+
+      for (let h = 0; h <= 24; h++) {
+        const line = document.createElement("div");
+        line.classList.add("hour-line");
+        line.style.top = (h * hourHeight) + "px";
+        dayContent.appendChild(line);
+      }
+
+      col.appendChild(dayContent);
+      dayColumnsWrapper.appendChild(col);
+    });
+
+    /************************************************
+     * CURRENT TIME LINE
+     ************************************************/
+    function updateCurrentTimeLine() {
+      const now = new Date();
+      dayColumnsWrapper.querySelectorAll(".day-column").forEach((col) => {
+        col.querySelectorAll(".current-time-line, .current-time-label").forEach(el => el.remove());
+        const colDate = new Date(col.dataset.date);
+        if (isSameDay(colDate, now)) {
+          const totalMinutes = now.getHours() * 60 + now.getMinutes();
+          const topPos = (totalMinutes / 60) * hourHeight;
+          const line = document.createElement("div");
+          line.classList.add("current-time-line");
+          line.style.top = topPos + "px";
+
+          const label = document.createElement("div");
+          label.classList.add("current-time-label");
+          label.style.top = (topPos - 10) + "px";
+          label.textContent = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+          col.querySelector(".day-content").append(line, label);
+        }
+      });
+    }
+    updateCurrentTimeLine();
+    setInterval(updateCurrentTimeLine, 60000);
+
+    /************************************************
+     * DRAG TO CREATE EVENT & MODAL LOGIC
+     ************************************************/
+    let isDragging = false, dragStartY = 0, dragEndY = 0, activeColumn = null, selectionBox = null;
+    function onMouseDown(e) {
+      const dayContent = e.target.closest(".day-content");
+      if (!dayContent) return;
+      isDragging = true;
+      activeColumn = dayContent;
+      const rect = dayContent.getBoundingClientRect();
+      dragStartY = e.clientY - rect.top + dayContent.scrollTop;
+      selectionBox = document.createElement("div");
+      selectionBox.classList.add("selection-box");
+      selectionBox.style.top = dragStartY + "px";
+      dayContent.appendChild(selectionBox);
+    }
+    function onMouseMove(e) {
+      if (!isDragging || !activeColumn) return;
+      const rect = activeColumn.getBoundingClientRect();
+      dragEndY = e.clientY - rect.top + activeColumn.scrollTop;
+      const start = Math.min(dragStartY, dragEndY);
+      const end = Math.max(dragStartY, dragEndY);
+      selectionBox.style.top = start + "px";
+      selectionBox.style.height = (end - start) + "px";
+    }
+    function onMouseUp(e) {
+      if (!isDragging || !activeColumn) return;
+      isDragging = false;
+      if (selectionBox && selectionBox.parentNode) {
+        selectionBox.parentNode.removeChild(selectionBox);
+      }
+      const startMinutes = Math.round(Math.min(dragStartY, dragEndY) / hourHeight * 60);
+      const endMinutes = Math.round(Math.max(dragStartY, dragEndY) / hourHeight * 60);
+      if (endMinutes <= startMinutes) { activeColumn = null; return; }
+      const dateStr = activeColumn.parentElement.dataset.date;
+      showEventModal(dateStr, startMinutes, endMinutes);
+      activeColumn = null;
+    }
+    document.addEventListener("mousedown", onMouseDown);
+    document.addEventListener("mousemove", onMouseMove);
+    document.addEventListener("mouseup", onMouseUp);
+
+    const modalOverlay = document.getElementById("modal-overlay");
+    const modalTimeRange = document.getElementById("modal-time-range");
+    const eventTitleInput = document.getElementById("event-title");
+    const saveEventBtn = document.getElementById("save-event");
+    const cancelEventBtn = document.getElementById("cancel-event");
+
+    let tempDateStr = "", tempStartMinutes = 0, tempEndMinutes = 0;
+    function showEventModal(dateStr, startM, endM) {
+      tempDateStr = dateStr;
+      tempStartMinutes = startM;
+      tempEndMinutes = endM;
+      const sH = Math.floor(startM / 60), sMin = startM % 60;
+      const eH = Math.floor(endM / 60), eMin = endM % 60;
+      modalTimeRange.textContent = `Time: ${String(sH).padStart(2, "0")}:${String(sMin).padStart(2, "0")} - ${String(eH).padStart(2, "0")}:${String(eMin).padStart(2, "0")}`;
+      eventTitleInput.value = "";
+      modalOverlay.style.display = "flex";
+      eventTitleInput.focus();
+    }
+    cancelEventBtn.addEventListener("click", () => { modalOverlay.style.display = "none"; });
+
+    // Assume a logged-in user ID (hardcoded here for example)
+    const userId = 1;
+
+    // --- SAVE EVENT: Retrieve event title and notification email ---
+
+saveEventBtn.addEventListener("click", () => {
+  const title = eventTitleInput.value.trim();
+  if (!title) {
+    alert("Please enter an event name.");
+    return;
+  }
+  // Get the notification email and timing from the modal inputs
+  const notificationEmail = document.getElementById("event-email").value.trim();
+  const notificationTiming = parseInt(document.getElementById("notification-timing").value.trim(), 10) || 5; // default to 5 if invalid
+
+  // Pass both values along to the event creation function
+  createEventBlock(tempDateStr, tempStartMinutes, tempEndMinutes, title, notificationEmail, notificationTiming);
+  modalOverlay.style.display = "none";
+});
+    /************************************************
+     * CREATE EVENT BLOCK, SAVE TO DB & SET UP Notifications
+     ************************************************/
+function createEventBlock(dateStr, startM, endM, title, notificationEmail, notificationTiming) {
+  const col = document.querySelector(`.day-column[data-date='${dateStr}']`);
+  if (!col) return;
+  const duration = endM - startM;
+  const topPx = (startM / 60) * hourHeight;
+  const heightPx = (duration / 60) * hourHeight;
+  const eventDiv = document.createElement("div");
+  eventDiv.classList.add("event-block");
+  eventDiv.style.top = topPx + "px";
+  eventDiv.style.height = heightPx + "px";
+  eventDiv.textContent = title;
+
+  // Random preset event background color
+  const colorList = ['#ff7043', '#8bc34a', '#ffa726', '#ab47bc', '#26c6da', '#ec407a', '#5c6bc0', '#66bb6a', '#ef5350'];
+  eventDiv.style.background = colorList[Math.floor(Math.random() * colorList.length)];
+
+  // Store event info for later use and collision detection
+  eventDiv.dataset.title = title;
+  eventDiv.dataset.date = dateStr;
+  eventDiv.dataset.start = startM;
+  eventDiv.dataset.end = endM;
+
+  // Check for overlapping events in the same column
+  const dayContent = col.querySelector(".day-content");
+  const existingEvents = dayContent.querySelectorAll(".event-block");
+  let overlapCount = 0;
+  existingEvents.forEach(existing => {
+    const existStart = parseInt(existing.dataset.start, 10);
+    const existEnd = parseInt(existing.dataset.end, 10);
+    if (startM < existEnd && endM > existStart) {
+      overlapCount++;
+    }
+  });
+
+  // Adjust width and left offset for overlapping events
+  if (overlapCount > 0) {
+    const eventWidth = 90 / (overlapCount + 1);
+    eventDiv.style.width = eventWidth + "%";
+    eventDiv.style.left = (5 + overlapCount * eventWidth) + "%";
+    eventDiv.style.zIndex = 100 - overlapCount;
+  }
+
+  // Left-click: Show event details
+  eventDiv.addEventListener("click", (e) => {
+    const { title, date, start, end } = e.currentTarget.dataset;
+    const sH = Math.floor(start / 60), sM = start % 60;
+    const eH = Math.floor(end / 60), eM = end % 60;
+    alert(`Event Details:\nTitle: ${title}\nDate: ${date}\nTime: ${String(sH).padStart(2, '0')}:${String(sM).padStart(2, '0')} - ${String(eH).padStart(2, '0')}:${String(eM).padStart(2, '0')}`);
+  });
+
+  // Right-click: Delete event
+  eventDiv.addEventListener("contextmenu", (e) => {
+    e.preventDefault();
+    if (confirm(`Delete the event "${eventDiv.dataset.title}"?`)) {
+      eventDiv.remove();
+    }
+  });
+
+  dayContent.appendChild(eventDiv);
+
+  // Save event to the database
+  fetch('/api/saveEvent', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      user_id: userId, // using the globally defined userId
+      title: title,
+      date: dateStr,
+      startMinutes: startM,
+      endMinutes: endM,
+      notification_email: notificationEmail
+    })
+  })
+  .then(response => response.json())
+  .then(data => console.log("Event saved to database:", data))
+  .catch(err => console.error("Error saving event:", err));
+
+  // Send notifications (instant and scheduled)
+  sendInstantNotification(title, dateStr, startM, notificationEmail);
+  scheduleEmailNotification(dateStr, startM, title, notificationEmail, notificationTiming);
+
+  // ---------------------------
+  // NEW: Highlight event block based on notification time
+  // ---------------------------
+  // Calculate event start time and notification trigger time
+  const eventDate = new Date(dateStr);
+  eventDate.setHours(Math.floor(startM / 60), startM % 60, 0, 0);
+  const notificationTime = new Date(eventDate.getTime() - notificationTiming * 60000);
+  const now = new Date();
+
+  // If we're already in the notification window, add the active highlight immediately
+  if (now >= notificationTime && now < eventDate) {
+    eventDiv.classList.add("active-notification");
+  } else if (now < notificationTime) {
+    // Schedule the highlight to be added at the notification time
+    setTimeout(() => {
+      eventDiv.classList.add("active-notification");
+    }, notificationTime.getTime() - now.getTime());
+  }
+  // Remove the highlight once the event starts
+  if (now < eventDate) {
+    setTimeout(() => {
+      eventDiv.classList.remove("active-notification");
+    }, eventDate.getTime() - now.getTime());
+  }
+}
+
+
+// --- SEND INSTANT NOTIFICATION ---
+function sendInstantNotification(title, dateStr, startM, notificationEmail) {
+  fetch('/api/sendNotification', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      title,
+      date: dateStr,
+      startMinutes: startM,
+      email: notificationEmail,
+      message: `New event created: "${title}" on ${dateStr} at ${Math.floor(startM / 60)}:${startM % 60}.`
+    })
+  })
+  .then(response => response.json())
+  .then(data => console.log('Instant notification sent:', data))
+  .catch(err => console.error('Error sending instant notification:', err));
+}
+
+// --- SCHEDULE EMAIL NOTIFICATION (using custom timing) ---
+function scheduleEmailNotification(dateStr, startM, title, notificationEmail, notificationTiming) {
+  const eventDate = new Date(dateStr);
+  const eventHour = Math.floor(startM / 60);
+  const eventMinute = startM % 60;
+  eventDate.setHours(eventHour, eventMinute, 0, 0);
+  // Schedule for notificationTiming minutes before the event
+  const notificationTime = new Date(eventDate.getTime() - notificationTiming * 60000);
+  const timeUntilNotification = notificationTime.getTime() - Date.now();
+
+  if (timeUntilNotification > 0) {
+    setTimeout(() => {
+      fetch('/api/sendNotification', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          title,
+          date: dateStr,
+          startMinutes: startM,
+          email: notificationEmail,
+          message: `Reminder: "${title}" is starting soon at ${eventHour}:${eventMinute < 10 ? '0' : ''}${eventMinute} on ${dateStr}.`
+        })
+      })
+      .then(response => response.json())
+      .then(data => console.log('Scheduled notification sent:', data))
+      .catch(err => console.error('Error sending scheduled notification:', err));
+    }, timeUntilNotification);
+  }
+}
+    /************************************************
+     * LOAD EVENTS FROM DATABASE ON PAGE LOAD
+     ************************************************/
+// Function to load and display stored events for the current user
+function loadUserEvents(userId) {
+  fetch(`/api/getEvents/${userId}`)
+    .then(response => response.json())
+    .then(events => {
+      console.log("Loaded events:", events); // Debug log for fetched events
+      events.forEach(event => {
+        // Ensure numeric values are numbers (if needed)
+        const startM = parseInt(event.start_minutes, 10);
+        const endM = parseInt(event.end_minutes, 10);
+        // Log to see if a column exists for the event's date
+        const col = document.querySelector(`.day-column[data-date='${event.date}']`);
+        if (!col) {
+          console.warn(`No column found for event date: ${event.date}`);
+        }
+        // Call createEventBlock only if the day column exists
+        if (col) {
+          createEventBlock(
+            event.date,
+            startM,
+            endM,
+            event.title,
+            event.notification_email,
+            5  // default notification timing (minutes before)
+          );
+        }
+      });
+    })
+    .catch(err => console.error("Error loading events:", err));
+}
+
+window.addEventListener("DOMContentLoaded", () => {
+  loadUserEvents(userId); // Ensure userId is defined (e.g., userId = 1)
+});
+
+
+    // Prevent text selection while dragging
+    document.addEventListener("dragstart", e => e.preventDefault());
+
+  </script>
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+   <script src="/JavaScript/User/timetable.js"></script>
+</body>
+</html>

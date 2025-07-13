@@ -1,0 +1,544 @@
+@font-face {
+  font-family: 'GT Walsheim Pro Condensed';
+  src: url('fonts/GT-Walsheim-Pro-Font-Family/GTWalsheimPro-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+*{
+
+margin:0;
+}
+
+:root {
+  --card-bg: #16001c;
+  --scrollbar-track: #e0e0e0;
+  --scrollbar-thumb: #6a0dad;
+}
+
+
+
+/* Body Styling */
+body {
+  font-family: var(--font-primary);
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+  overflow-x: hidden;
+  background-color: #16001c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Scrollbar Styling for WebKit Browsers */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #16001c;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF00FF;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #909090;
+}
+
+/* Container Styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Ensures both cards are centered horizontally */
+  width: 100%; /* Ensure the container takes up full width */
+}
+
+.card-main, .card-second, .card-third {
+  overflow: hidden; /* Prevents overflow from causing issues */
+}
+
+/* Title Container */
+.title-container {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  z-index:10;
+}
+
+.title-container .maintitle {
+  font-family: 'GT Walsheim Pro Condensed', sans-serif !important;
+  font-size: 7vw; /* Responsive font size */
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5),
+               0px 0px 15px rgba(0, 0, 0, 0.3); /* Depth effect */
+  color: white; /* Set text color to white */
+  padding-top: 5vh; /* Responsive top padding */
+}
+
+@media (min-width: 768px) {
+  .title-container .maintitle {
+    font-size: 5vw; /* Adjust for medium screens */
+    padding-top: 3vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title-container .maintitle {
+    font-size: 4vw; /* Adjust for large screens */
+  }
+}
+
+.title-container .typing-text {
+  font-family: 'GT Walsheim Pro Condensed', sans-serif !important;
+  font-size: 6vw; /* Responsive font size */
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5),
+               0px 0px 15px rgba(0, 0, 0, 0.3); /* Depth effect */
+  color: white; /* Set text color to white */
+
+}
+
+@media (min-width: 768px) {
+  .title-container .typing-text {
+    font-size: 5vw; /* Adjust for medium screens */
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .title-container .typing-text {
+
+  }
+}
+
+
+
+
+/* Card Main Styling */
+.card-main {
+  flex: 0 0 100vh;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  width: 100%; /* Ensure the card takes up the full width */
+
+}
+.card-second,
+.card-fifth,
+.card-forth,
+.card-third,
+.card-sixth{
+  padding: 20px;
+  width: 100%; /* Ensure the second and third cards take up full width */
+}
+
+
+
+
+/* Card Secondary Styling */
+.card-second, .card-third,.card-fifth,.card-sixth {
+  padding: 20px;
+  display:flex;
+}
+
+
+.card-fifth{
+  background: linear-gradient(to bottom, #16001C,#580071,#16001C);
+}
+
+/* Card Title Styles */
+.card-title {
+  text-align: center;
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+  color: white;
+ font-family: 'GT Walsheim Pro Condensed', sans-serif !important;
+  margin-bottom: 10px; /* Space between title and content */
+}
+
+/* Card Content Styles */
+.card-second h3,
+.card-third h3,
+.card-fifth h3,
+.card-forth h3,{
+  text-align: center;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: white;
+  font-family: var(--font-primary);
+  padding: 30px 0; /* Adds top and bottom padding */
+}
+
+/* Card Container Styles */
+.card {
+  display: flex;
+  flex-direction: column; /* Ensures title and content are stacked */
+  align-items: center;
+  justify-content: flex-start; /* Title stays on top */
+  background: linear-gradient(to bottom,#16001c ,#16001C, #580071);/* Adds smooth transition for background */
+}
+
+/* Card Container Styles */
+.card2 {
+  display: flex;
+  flex-direction: column; /* Ensures title and content are stacked */
+  align-items: center;
+  justify-content: flex-start; /* Title stays on top */
+  background: linear-gradient(to bottom, #580071, #16001c);/* Adds smooth transition for background */
+}
+.card3 {
+  display: flex;
+  flex-direction: column; /* Ensures title and content are stacked */
+  align-items: center;
+  justify-content: flex-start; /* Title stays on top */
+  background: linear-gradient(to bottom, #580071, #16001c);/* Adds smooth transition for background */
+}
+
+
+/* Card background with smooth animation */
+.card-bg {
+  display: flex;
+  flex-direction: column; /* Ensures title and content are stacked */
+  align-items: center;
+  justify-content: flex-start; /* Title stays on top */
+  background: #16001C; /* Initial color */
+
+}
+
+
+
+
+.card-second p, .card-third p {
+  margin: 0;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  color: white;
+  text-align: center;
+  font-family: var(--font-secondary);
+}
+
+
+
+/* effect-shine */
+.effect-shine {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, 0.6) 30%, #000 50%, rgba(0, 0, 0, 0.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 5s infinite linear;
+  font-size: 5vw; /* Adjust font-size based on viewport width */
+  font-family: 'GT Walsheim Pro Condensed', sans-serif !important;
+  text-align: center; /* Center text alignment */
+  display: block;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .effect-shine {
+    font-size: 10vw; /* Slightly larger text for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .effect-shine {
+    font-size: 12vw; /* Adjust font size for very small screens */
+  }
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 120%;
+  }
+
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+
+/*-----------*/
+
+.container-info {
+  width: 90%; /* Use a percentage for responsiveness */
+  max-width: 1200px; /* Optional: Set a max width for larger screens */
+  margin: 0 auto; /* Center the container */
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px; /* Add gap between items for better spacing */
+}
+
+.container-info .card-info {
+  flex: 1 1 calc(33.33% - 20px); /* Flexible width with gap adjustment */
+  max-width: 300px; /* Limit the max size */
+  position: relative;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.container-info .card-info .face {
+  width: 100%; /* Adjust width to be dynamic */
+  height: auto; /* Maintain aspect ratio if needed */
+  min-height: 200px; /* Ensure minimum height */
+  transition: 0.4s;
+}
+
+.container-info .card-info .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container-info .card-info:hover .face.face1 {
+  transform: translateY(0);
+  box-shadow:
+    inset 0 0 60px whitesmoke,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 50px #fff,
+    -10px 0 80px #f0f,
+    10px 0 80px #0ff;
+}
+
+.container-info .card-info .face.face1 .content {
+  opacity: 0.2;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.container-info .card-info:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container-info .card-info .face.face1 .content i {
+  font-size: 3em;
+  color: white;
+  display: inline-block;
+}
+
+.container-info .card-info .face.face1 .content h3 {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+
+.container-info .card-info .face.face2 {
+  position: relative;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.container-info .card-info:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.container-info .card-info .face.face2 .content p,
+.container-info .card-info .face.face2 .content a {
+  font-size: 10pt;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container-info .card-info .face.face2 .content a {
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  outline: 1px dashed #333;
+  padding: 10px;
+  margin: 15px 0 0;
+  display: inline-block;
+}
+
+.container-info .card-info .face.face2 .content a:hover {
+  background: #333;
+  color: whitesmoke;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+  .container-info .card-info {
+    flex: 1 1 calc(50% - 20px); /* Adjust for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .container-info .card-info {
+    flex: 1 1 100%; /* Full width for small screens */
+  }
+
+  .container-info {
+    justify-content: center; /* Center align cards on small screens */
+  }
+}
+
+
+/*----*/
+
+.footer-h1{
+color:white;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width:fit-content ;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+form .fa-solid{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+width: 100%;
+background: transparent;
+color: #ccc;
+border: 0;
+outline: none;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fa-solid{
+font-size:16px;
+color:#ccc;
+}
+.social-icons .fa-brands {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+text-align: center;
+line-height: 40px;
+font-size: 20px;
+color: #000;
+background: #fff;
+margin-right: 15px;
+cursor: pointer;
+}
+hr{
+    width:90% ;
+    border-bottom: 1px solid #ccc;
+    margin: 20px outo;
+}
+.copyright{
+    text-align: center;
+}
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+border-radius: 3px;
+position: absolute;
+top: 25px;
+left: 0;
+overflow: hidden;
+}
+.underline span{
+    width:15px ;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top:0;
+    left:10px;
+    animation: moving 2s linear infinite;
+}
+@keyframes  moving {
+    0%{
+        left:-20px;
+    }
+    100%{
+        left:100%;
+    }
+}
+@media (max-width:700px){
+    footer{
+        bottom:unset ;
+    }
+    .col{
+        flex-basis: 100%;
+
+    }
+    col :nth-child(2), :nth-child(3){
+        flex-basis: 100%;
+
+}
+/* Sticky Header Style */
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3); /* Transparent white background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  padding: 10px 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.sticky-header .logo {
+  height: 40px; /* Adjust logo size */
+}
+
+/* Ensure the body content doesn't overlap with the sticky header */
+body {
+  padding-top: 60px; /* Adjust this value to match the height of your header */
+}

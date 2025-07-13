@@ -1,0 +1,20 @@
+{
+    "ips": [
+        "192.168.1.100",
+        "192.168.1.102"
+    ],
+    "thresholds": {
+        "SPOOF_THRESHOLD": 2,
+        "FRAME_SLEEP_TIME": 0.005,
+        "IDLE_SLEEP_TIME": 5,
+        "RECOGNITION_THRESHOLD": 0.9,
+        "QUEUE_SIZE": 5,
+        "DISPLAY_WIDTH": 2688,
+        "DISPLAY_HEIGHT": 1520,
+        "PROCESS_EVERY_N_FRAMES": 1,
+        "MIN_FACE_SIZE": 30,
+        "CONFIDENCE_THRESHOLD": 0.8,
+        "USE_FACE_ENHANCEMENT": false,
+        "FACE_SCALING_FACTOR": 0
+    }
+}

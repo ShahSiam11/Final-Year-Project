@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" sizes="32x32" href="/imagess/attendeaselogo.png">
+  <title>Student Portal</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="/CSS/User/profile.css">
+</head>
+<body>
+   <div class="container">
+
+    <aside>
+      <div class="top">
+        <h2 class="logo1"> AttendEase </h2>
+        <div class="close" id="close_btn">
+          <span class="material-symbols-sharp">close</span>
+        </div>
+      </div>
+      <div class="sidebar">
+        <a href="/Dashboard" class="nav-link"><lord-icon src="https://cdn.lordicon.com/cnpvyndp.json" colors="primary:#D455E6"class="icon"></lord-icon><h3>Dashboard</h3></a>
+        <a href="/TimeTable" class="nav-link"><lord-icon src="https://cdn.lordicon.com/abfverha.json"  colors="primary:#D455E6"class="icon"></lord-icon><h3>Time Table</h3></a>
+        <a href="/Analysis" class="nav-link"><lord-icon src="https://cdn.lordicon.com/whrxobsb.json"  colors="primary:#D455E6"class="icon"></lord-icon><h3>Analysis</h3></a>
+        <a href="/Profile" class="active"><lord-icon src="https://cdn.lordicon.com/hrjifpbq.json" colors="primary:#D455E6" class="icon"></lord-icon><h3>Profile</h3></a>
+        <a href="/Notification" class="nav-link"><lord-icon src="https://cdn.lordicon.com/vspbqszr.json" colors="primary:#D455E6" class="icon"></lord-icon><h3>Notifications</h3><span class="msg_count" id="unread-count">14</span></a>
+        <a href="/Settings" class="nav-link"><lord-icon src="https://cdn.lordicon.com/lecprnjb.json" colors="primary:#D455E6" class="icon"></lord-icon><h3>Settings</h3></a>
+        <a href="/" class="nav-link"><lord-icon src="https://cdn.lordicon.com/nqtddedc.json" colors="primary:#D455E6" class="icon"></lord-icon><h3>Logout</h3></a>
+      </div>
+    </aside>
+
+
+
+      <!-- --------------
+        end asid
+      -------------------- -->
+
+      <!-- --------------
+        start main part
+      --------------- -->
+
+      <main>
+
+            <div class="insights">
+            </div>
+
+
+
+       <!-- end insights -->
+      <div class="recent_order">
+         <h2>User Profile</h2>
+         <table>
+             <thead>
+              <tr>
+                <th>SubjectID</th>
+                <th>Subject Name</th>
+                <th>Subject</th>
+                <th>Start Time</th>
+                <th>Semester</th>
+                <th>Subject Status</th>
+              </tr>
+             </thead>
+              <tbody>
+
+              </tbody>
+         </table>
+      </div>
+          <br>
+          <br>
+<div class="container-add">
+          <div class="add-subject">
+  <h2>Add Subject to Profile</h2>
+  <form id="addSubjectForm">
+    <label for="subjectID">Subject ID:</label>
+    <input type="text" id="subjectID" name="subjectID" required>
+
+    <label for="subjectName">Subject Name:</label>
+    <input type="text" id="subjectName" name="subjectName" required>
+
+    <label for="semester">Semester:</label>
+    <select id="semester" name="semester" required>
+      <option value="Autumn">Autumn</option>
+      <option value="Winter">Winter</option>
+      <option value="Spring">Spring</option>
+      <option value="Summer">Summer</option>
+    </select>
+
+    <label for="facultyName">Faculty Name:</label>
+    <input type="text" id="facultyName" name="facultyName" required>
+
+    <button type="submit">Add Subject</button>
+  </form>
+
+
+</div>
+</div>
+
+
+
+
+      </main>
+      <!------------------
+         end main
+        ------------------->
+
+      <!----------------
+        start right main
+      ---------------------->
+    <div class="right">
+
+<div class="top">
+   <button id="menu_bar">
+<lord-icon
+    src="https://cdn.lordicon.com/nizfqlnk.json"
+    trigger="hover"
+    colors="primary:#D455E6"
+    style="width:40px;height:40px">
+</lord-icon>
+   </button>
+   <div class="theme-toggler">
+     <span class="material-symbols-sharp active">light_mode</span>
+     <span class="material-symbols-sharp">dark_mode</span>
+   </div>
+    <div class="profile">
+       <div class="info">
+           <b><p id="name"></p></b>
+           <p id="role"></p>
+           <small class="text-muted"></small>
+       </div>
+       <!--<div class="profile-photo">
+         <img src="./images/profile-1.jpg" alt=""/>
+       </div>-->
+    </div>
+</div>
+
+  <div class="recent_updates">
+     <h2>Notice</h2>
+   <div class="updates">
+      <div class="update">
+        <div class="profile-photo">
+        <span class="material-symbols-sharp">logout </span>
+        </div>
+       <div class="message">
+            <p id="subjectLimitMessage"></p>
+       </div>
+     </div>
+
+  </div>
+  </div>
+
+
+   <div class="sales-analytics">
+     <h2>Subjects Enrolled</h2>
+
+      <div class="item onlion">
+        <div class="icon">
+            <span class="material-symbols-sharp">menu_book</span>
+        </div>
+        <div class="right_text">
+          <div class="info">
+            <h3>Onlion Orders</h3>
+            <small class="text-muted">Last seen 2 Hours</small>
+          </div>
+          <h5 class="danger">-17%</h5>
+          <h3>3849</h3>
+        </div>
+      </div>
+      <div class="item onlion">
+        <div class="icon">
+          <span class="material-symbols-sharp">menu_book</span>
+        </div>
+        <div class="right_text">
+          <div class="info">
+            <h3>Onlion Orders</h3>
+            <small class="text-muted">Last seen 2 Hours</small>
+          </div>
+          <h5 class="success">-17%</h5>
+          <h3>3849</h3>
+        </div>
+      </div>
+      <div class="item onlion">
+        <div class="icon">
+          <span class="material-symbols-sharp">menu_book</span>
+        </div>
+        <div class="right_text">
+          <div class="info">
+            <h3>Onlion Orders</h3>
+            <small class="text-muted">Last seen 2 Hours</small>
+          </div>
+          <h5 class="danger">-17%</h5>
+          <h3>3849</h3>
+        </div>
+      </div>
+
+
+
+</div>
+
+
+</div>
+
+
+   </div>
+
+
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+   <script src="/JavaScript/User/profile.js"></script>
+</body>
+</html>

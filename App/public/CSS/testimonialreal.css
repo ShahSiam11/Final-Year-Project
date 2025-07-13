@@ -1,0 +1,233 @@
+
+.testi-body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.testi-site {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-testi {
+  max-width: 1100px;
+  width: 100%;
+  padding: 0 15px; /* Reduced default padding */
+  margin: 0 auto;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.testi {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.testi .head-testi {
+  text-align: center;
+  margin-bottom: 60px;
+  color:#fff;
+}
+
+
+.testi .head-testi p{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+}
+
+.testi .head-testi h3 {
+  font-size: 34px;
+  font-weight: 800;
+
+}
+
+.testi .testi-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding: 30px 0;
+}
+
+.testi .testi-thumbnail {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.testi .testi-thumbnail::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(100% + 30px);
+  height: calc(100% + 10px);
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: -1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: border-radius 0.5s 0.3s;
+}
+
+.testi .swiper-slide-active .testi-thumbnail::before {
+  border-radius: 33% 67% 50% 50% / 50% 14% 86% 50%;
+  box-shadow: 0 0 5px rgba(255, 0, 255, 0.8), 0 0 10px rgba(255, 0, 255, 0.6), 0 0 15px rgba(255, 0, 255, 0.4);
+}
+
+
+.testi .testi-thumbnail img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transform:scale(0.8);
+  transition:transform .5s;
+}
+
+.testi .swiper-slide-active .testi-thumbnail img {
+  transform:scale(1);
+}
+
+
+@media screen and (max-width: 767px) {
+  .testi .testi-wrapper {
+    padding: 20px 15px; /* Add consistent padding for smaller screens */
+  }
+
+  .container-testi {
+    padding: 0 15px; /* Add padding for smaller screens */
+  }
+}
+@media screen and (min-width: 768px) {
+  .testi .testi-wrapper {
+    flex-direction: row;
+    padding: 30px 100px;
+  }
+  .testi .testi-thumbnail {
+    width: 200px;
+    height: 200px;
+  }
+  .testi :is(.swiper-button-next, .swiper-button-prev) {
+    top: 50%;
+  }
+  .testi .swiper-slide-active .testi-name {
+    transform: translateX(-50px); /* Moves to the left */
+    position: relative; /* Ensures it's not affected by absolute/relative parents */
+    margin-left: -50px; /* Adjust positioning relative to the image */
+  }
+}
+
+.testi .testi-aside {
+  position: relative;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.testi .testi-aside > p {
+  position: relative;
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 30px;
+  opacity: 0;
+  transform:translateX(10%);
+  transition:transform 1s, opacity 1s;
+  color:#fff;
+}
+
+.testi .swiper-slide-active .testi-aside > p {
+  transform:translateX(0);
+  opacity:1;
+}
+
+.testi .testi-aside > p::before,
+.testi .testi-aside > p::after {
+  font-family: serif;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 1;
+  position: absolute;
+  color: white;
+  height: 40px;
+  z-index: -1;
+}
+
+.testi .testi-aside > p::before {
+  content: open-quote;
+  top: -40px;
+  left: 10px;
+}
+
+.testi .testi-aside > p::after {
+  content: close-quote;
+  right: 2;
+}
+
+.testi .testi-aside .testi-name {
+  position: relative;
+  width: fit-content;
+  line-height: 1;
+  opacity: 0;
+  transform:translateX(30px);
+  transition:transform 1s .2s, opacity 1s .3s;
+}
+
+.testi .swiper-slide-active .testi-name {
+  transform:translateX(0);
+  opacity:1;
+}
+
+.testi .testi-aside .testi-name h4 {
+  font-size: 22px;
+  font-weight: 800;
+  color: magenta;
+  opacity: 0.8;
+   margin-bottom: 0px; /* Reduce the bottom margin */
+}
+
+.testi .testi-aside .testi-name p {
+  font-size: 12px;
+  text-align: right;
+  color: #fff;
+    margin-top: 0; /* Ensure no additional gap from the top margin */
+}
+
+.testi :is(.swiper-button-next, .swiper-button-prev) {
+  background-color: #16001c;
+  top: 35%;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testi :is(.swiper-button-next, .swiper-button-prev):hover {
+  background-color: magenta;
+}
+
+.testi :is(.swiper-button-next, .swiper-button-prev)::after {
+  font-size: 16px;
+  font-weight: 800;
+  color: #fffe;
+}
+
+.testi .swiper-pagination {
+  position: relative;
+}
+
+.testi .swiper-pagination span {
+  background-color: #eee;
+  transition: width 0.3s;
+  opacity: 1;
+}
+
+.testi .swiper-pagination .swiper-pagination-bullet-active {
+  width: 26px;
+  border-radius: 4px;
+}

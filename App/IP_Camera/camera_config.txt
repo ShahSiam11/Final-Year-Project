@@ -1,0 +1,14 @@
+{
+    "entry": {
+        "username": "admin",
+        "password": "Attendease321",
+        "rtsp_url": "rtsp://admin:Attendease321@192.168.1.100:554/Streaming/Channels/101",
+        "ip": "192.168.1.100"
+    },
+    "exit": {
+        "username": "admin",
+        "password": "Attendease321",
+        "rtsp_url": "rtsp://admin:Attendease321@192.168.1.102:554/Streaming/Channels/101",
+        "ip": "192.168.1.102"
+    }
+}

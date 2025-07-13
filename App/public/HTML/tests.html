@@ -1,0 +1,92 @@
+<!-- 
+  Copyright (c) 2025 Ahsan Latif (@GittyCandy)  
+  All Rights Reserved.  
+  
+  Unauthorized access, use, reproduction, modification, distribution,  
+  or creation of derivative works based on this code is strictly prohibited  
+  without the prior explicit written permission of the owner.  
+  
+  Violators may be subject to legal action.  
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unit Test Progress</title>
+  <style>
+    #progress-bar {
+      width: 100%;
+      background-color: #ddd;
+      margin-bottom: 20px;
+    }
+    #progress {
+      width: 0%;
+      height: 30px;
+      background-color: #4CAF50;
+      text-align: center;
+      line-height: 30px;
+      color: white;
+    }
+    .log-line {
+      font-family: monospace;
+      margin: 0;
+      padding: 2px;
+    }
+    .pass {
+      color: green;
+    }
+    .fail {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Unit Test Progress</h1>
+  <div id="progress-bar">
+    <div id="progress">0%</div>
+  </div>
+  <div id="log"></div>
+  <button id="runTests">Run Tests</button>
+
+  <script>
+    document.getElementById('runTests').addEventListener('click', () => {
+      // Reset progress bar and log
+      document.getElementById('progress').style.width = '0%';
+      document.getElementById('progress').textContent = '0%';
+      document.getElementById('log').innerHTML = '';
+
+      // Create an EventSource to receive SSE from the backend
+      const evtSource = new EventSource('/run-tests');
+      evtSource.onmessage = function(event) {
+        const logDiv = document.getElementById('log');
+        const line = document.createElement('p');
+        line.className = 'log-line';
+        line.textContent = event.data;
+        logDiv.appendChild(line);
+
+        // Optional: Parse the output to update progress
+        // For example, if your test output prints "✓" on passing tests,
+        // you can count occurrences and update the progress bar accordingly.
+        // Here, we simulate progress (this should be replaced with real parsing logic)
+        let currentWidth = parseInt(document.getElementById('progress').textContent, 10);
+        if (currentWidth < 100) {
+          currentWidth += 10; // simulate progress increment
+          document.getElementById('progress').style.width = currentWidth + '%';
+          document.getElementById('progress').textContent = currentWidth + '%';
+        }
+
+        // When tests finish (e.g., if output contains 'Tests completed'),
+        // close the EventSource.
+        if (event.data.indexOf('Tests completed') !== -1) {
+          evtSource.close();
+        }
+      };
+
+      evtSource.onerror = function() {
+        console.error("EventSource failed.");
+        evtSource.close();
+      };
+    });
+  </script>
+</body>
+</html>

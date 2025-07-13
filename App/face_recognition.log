@@ -1,0 +1,1903 @@
+2025-03-25 11:33:22,767 - INFO - Started face recognition process
+2025-03-25 11:33:22,768 - DEBUG - Thresholds synchronized with camera_settings.json
+2025-03-25 11:39:32,681 - ERROR - Error reading config file: [Errno 2] No such file or directory: 'config.txt'
+2025-03-25 11:39:33,019 - INFO - Started face recognition process.
+2025-03-25 11:39:36,931 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 11:39:37,001 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 11:42:58,971 - INFO - Started face recognition process.
+2025-03-25 13:36:20,665 - INFO - Started face recognition process.
+2025-03-25 13:36:22,990 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 13:36:22,996 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:36:34,032 - HEALTH - System Health - CPU Usage: 3.3%, Memory Usage: 83.0%, Disk Usage: 35.3%
+2025-03-25 13:36:34,032 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:36:34,032 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:36:34,087 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:36:34,087 - INFO - Detected 1 faces.
+2025-03-25 13:36:34,263 - INFO - Recognition Result: ahsan latif_7838220 (Distance: 0.7267)
+2025-03-25 13:36:36,709 - INFO - Real Face Detected: ahsan latif_7838220 (Score: 0.99)
+2025-03-25 13:36:36,711 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:43:20,476 - INFO - User 'testero boop_819038' added to the database.
+2025-03-25 13:49:27,714 - INFO - Started face recognition process.
+2025-03-25 13:49:29,826 - HEALTH - Average Face Detection Confidence: 0.85
+2025-03-25 13:49:29,826 - INFO - Detected 3 faces.
+2025-03-25 13:49:29,918 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6859)
+2025-03-25 13:49:30,047 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.85)
+2025-03-25 13:49:30,052 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:49:36,072 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:49:42,101 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:49:48,118 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:49:48,121 - ERROR - Error processing face 3: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:49:59,204 - HEALTH - System Health - CPU Usage: 17.5%, Memory Usage: 80.0%, Disk Usage: 35.3%
+2025-03-25 13:49:59,204 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:49:59,204 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.079s, Avg Anti-Spoofing Test Time: 0.124s
+2025-03-25 13:49:59,283 - HEALTH - Average Face Detection Confidence: 0.83
+2025-03-25 13:49:59,283 - INFO - Detected 2 faces.
+2025-03-25 13:49:59,291 - ERROR - Error processing face 1: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:49:59,294 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:50:10,382 - HEALTH - System Health - CPU Usage: 8.2%, Memory Usage: 80.1%, Disk Usage: 35.3%
+2025-03-25 13:50:10,382 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:50:10,382 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:50:10,471 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:50:10,471 - INFO - Detected 1 faces.
+2025-03-25 13:50:10,576 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6500)
+2025-03-25 13:50:10,707 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.84)
+2025-03-25 13:50:21,787 - HEALTH - System Health - CPU Usage: 7.3%, Memory Usage: 80.1%, Disk Usage: 35.3%
+2025-03-25 13:50:21,787 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:50:21,787 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.091s, Avg Anti-Spoofing Test Time: 0.125s
+2025-03-25 13:50:21,863 - HEALTH - Average Face Detection Confidence: 0.87
+2025-03-25 13:50:21,864 - INFO - Detected 2 faces.
+2025-03-25 13:50:21,869 - ERROR - Error processing face 1: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:50:21,871 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:50:32,952 - HEALTH - System Health - CPU Usage: 6.0%, Memory Usage: 80.1%, Disk Usage: 35.3%
+2025-03-25 13:50:32,952 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:50:32,952 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:50:33,034 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 13:50:38,178 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 13:50:44,267 - HEALTH - System Health - CPU Usage: 10.9%, Memory Usage: 80.2%, Disk Usage: 35.3%
+2025-03-25 13:50:44,267 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:50:44,267 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:50:44,346 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 13:50:49,482 - HEALTH - Average Face Detection Confidence: 0.91
+2025-03-25 13:50:49,482 - INFO - Detected 2 faces.
+2025-03-25 13:50:49,568 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7083)
+2025-03-25 13:50:49,702 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.89)
+2025-03-25 13:50:49,705 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:51:00,807 - HEALTH - System Health - CPU Usage: 8.3%, Memory Usage: 80.3%, Disk Usage: 35.3%
+2025-03-25 13:51:00,807 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:51:00,807 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.075s, Avg Anti-Spoofing Test Time: 0.127s
+2025-03-25 13:51:00,883 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 13:51:06,017 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 13:51:12,106 - HEALTH - System Health - CPU Usage: 3.0%, Memory Usage: 80.4%, Disk Usage: 35.3%
+2025-03-25 13:51:12,107 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:51:12,107 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:51:12,184 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 13:51:17,277 - HEALTH - Average Face Detection Confidence: 0.99
+2025-03-25 13:51:17,278 - INFO - Detected 1 faces.
+2025-03-25 13:51:17,366 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6630)
+2025-03-25 13:51:17,486 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.58)
+2025-03-25 13:51:28,522 - HEALTH - System Health - CPU Usage: 4.0%, Memory Usage: 80.3%, Disk Usage: 35.3%
+2025-03-25 13:51:28,522 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:51:28,522 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.078s, Avg Anti-Spoofing Test Time: 0.114s
+2025-03-25 13:51:28,593 - HEALTH - Average Face Detection Confidence: 0.73
+2025-03-25 13:51:28,593 - INFO - Detected 2 faces.
+2025-03-25 13:51:28,602 - ERROR - Error processing face 1: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:51:28,604 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:51:39,628 - HEALTH - System Health - CPU Usage: 4.4%, Memory Usage: 80.3%, Disk Usage: 35.3%
+2025-03-25 13:51:39,629 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:51:39,629 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:51:39,697 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 13:51:44,781 - HEALTH - Average Face Detection Confidence: 0.81
+2025-03-25 13:51:44,781 - INFO - Detected 1 faces.
+2025-03-25 13:51:44,783 - ERROR - Error processing face 1: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:51:55,823 - HEALTH - System Health - CPU Usage: 2.7%, Memory Usage: 80.0%, Disk Usage: 35.3%
+2025-03-25 13:51:55,823 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:51:55,823 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:51:55,888 - HEALTH - Average Face Detection Confidence: 0.79
+2025-03-25 13:51:55,888 - INFO - Detected 2 faces.
+2025-03-25 13:51:55,894 - ERROR - Error processing face 1: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:51:55,896 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:52:06,915 - HEALTH - System Health - CPU Usage: 4.3%, Memory Usage: 80.0%, Disk Usage: 35.3%
+2025-03-25 13:52:06,915 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:52:06,915 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:52:06,982 - HEALTH - Average Face Detection Confidence: 0.94
+2025-03-25 13:52:06,982 - INFO - Detected 1 faces.
+2025-03-25 13:52:06,984 - ERROR - Error processing face 1: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:52:18,016 - HEALTH - System Health - CPU Usage: 2.9%, Memory Usage: 80.0%, Disk Usage: 35.3%
+2025-03-25 13:52:18,016 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:52:18,016 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:52:18,081 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 13:52:23,161 - HEALTH - Average Face Detection Confidence: 0.80
+2025-03-25 13:52:23,161 - INFO - Detected 1 faces.
+2025-03-25 13:52:23,163 - ERROR - Error processing face 1: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:52:34,194 - HEALTH - System Health - CPU Usage: 9.9%, Memory Usage: 80.0%, Disk Usage: 35.3%
+2025-03-25 13:52:34,194 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:52:34,194 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:52:34,256 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 13:52:39,326 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 13:52:45,360 - HEALTH - System Health - CPU Usage: 7.1%, Memory Usage: 80.0%, Disk Usage: 35.3%
+2025-03-25 13:52:45,360 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:52:45,360 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:52:45,444 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:52:45,444 - INFO - Detected 1 faces.
+2025-03-25 13:52:45,536 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6477)
+2025-03-25 13:52:45,649 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:52:56,677 - HEALTH - System Health - CPU Usage: 6.0%, Memory Usage: 80.1%, Disk Usage: 35.3%
+2025-03-25 13:52:56,677 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:52:56,677 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.080s, Avg Anti-Spoofing Test Time: 0.108s
+2025-03-25 13:52:56,763 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:52:56,763 - INFO - Detected 1 faces.
+2025-03-25 13:52:56,854 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6992)
+2025-03-25 13:52:56,967 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:53:07,996 - HEALTH - System Health - CPU Usage: 5.3%, Memory Usage: 80.2%, Disk Usage: 35.3%
+2025-03-25 13:53:07,996 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:53:07,996 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.082s, Avg Anti-Spoofing Test Time: 0.107s
+2025-03-25 13:53:08,090 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:53:08,090 - INFO - Detected 1 faces.
+2025-03-25 13:53:08,180 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6099)
+2025-03-25 13:53:08,297 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:53:19,330 - HEALTH - System Health - CPU Usage: 4.4%, Memory Usage: 80.2%, Disk Usage: 35.3%
+2025-03-25 13:53:19,330 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:53:19,330 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.076s, Avg Anti-Spoofing Test Time: 0.112s
+2025-03-25 13:53:19,399 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:53:19,399 - INFO - Detected 1 faces.
+2025-03-25 13:53:19,482 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.4973)
+2025-03-25 13:53:19,657 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:53:30,693 - HEALTH - System Health - CPU Usage: 4.7%, Memory Usage: 80.3%, Disk Usage: 35.3%
+2025-03-25 13:53:30,693 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:53:30,693 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.072s, Avg Anti-Spoofing Test Time: 0.170s
+2025-03-25 13:53:30,760 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:53:30,760 - INFO - Detected 1 faces.
+2025-03-25 13:53:30,843 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5711)
+2025-03-25 13:53:30,953 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:53:41,990 - HEALTH - System Health - CPU Usage: 6.2%, Memory Usage: 80.2%, Disk Usage: 35.3%
+2025-03-25 13:53:41,990 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:53:41,990 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.074s, Avg Anti-Spoofing Test Time: 0.105s
+2025-03-25 13:53:42,066 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:53:42,066 - INFO - Detected 1 faces.
+2025-03-25 13:53:42,146 - INFO - Recognition Result: Unknown (Distance: 1.0208)
+2025-03-25 13:53:42,264 - INFO - Real Face Detected: Unknown (Score: 1.00)
+2025-03-25 13:53:53,295 - HEALTH - System Health - CPU Usage: 10.5%, Memory Usage: 80.0%, Disk Usage: 35.3%
+2025-03-25 13:53:53,295 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:53:53,295 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.068s, Avg Anti-Spoofing Test Time: 0.112s
+2025-03-25 13:53:53,381 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:53:53,382 - INFO - Detected 1 faces.
+2025-03-25 13:53:53,492 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.4994)
+2025-03-25 13:53:53,622 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:54:04,654 - HEALTH - System Health - CPU Usage: 3.8%, Memory Usage: 80.2%, Disk Usage: 35.3%
+2025-03-25 13:54:04,654 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:54:04,654 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.097s, Avg Anti-Spoofing Test Time: 0.124s
+2025-03-25 13:54:04,737 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:54:04,737 - INFO - Detected 1 faces.
+2025-03-25 13:54:04,828 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5987)
+2025-03-25 13:54:04,946 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:54:15,977 - HEALTH - System Health - CPU Usage: 9.7%, Memory Usage: 80.2%, Disk Usage: 35.3%
+2025-03-25 13:54:15,977 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:54:15,977 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.077s, Avg Anti-Spoofing Test Time: 0.112s
+2025-03-25 13:54:16,053 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:54:16,053 - INFO - Detected 1 faces.
+2025-03-25 13:54:16,139 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6732)
+2025-03-25 13:54:16,252 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.99)
+2025-03-25 13:54:27,282 - HEALTH - System Health - CPU Usage: 10.6%, Memory Usage: 80.3%, Disk Usage: 35.3%
+2025-03-25 13:54:27,282 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:54:27,282 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.072s, Avg Anti-Spoofing Test Time: 0.107s
+2025-03-25 13:54:27,352 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:54:27,352 - INFO - Detected 1 faces.
+2025-03-25 13:54:27,435 - INFO - Recognition Result: ahsan latif_7838220 (Distance: 0.7051)
+2025-03-25 13:54:27,551 - INFO - Real Face Detected: ahsan latif_7838220 (Score: 1.00)
+2025-03-25 13:54:38,601 - HEALTH - System Health - CPU Usage: 60.3%, Memory Usage: 80.3%, Disk Usage: 35.3%
+2025-03-25 13:54:38,601 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:54:38,601 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.070s, Avg Anti-Spoofing Test Time: 0.110s
+2025-03-25 13:54:38,689 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:54:38,689 - INFO - Detected 1 faces.
+2025-03-25 13:54:38,798 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6642)
+2025-03-25 13:54:38,916 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:54:49,951 - HEALTH - System Health - CPU Usage: 13.7%, Memory Usage: 80.3%, Disk Usage: 35.3%
+2025-03-25 13:54:49,952 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:54:49,952 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.096s, Avg Anti-Spoofing Test Time: 0.112s
+2025-03-25 13:54:50,044 - HEALTH - Average Face Detection Confidence: 0.91
+2025-03-25 13:54:50,044 - INFO - Detected 2 faces.
+2025-03-25 13:54:50,145 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.4587)
+2025-03-25 13:54:50,277 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:54:50,281 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:55:05,303 - INFO - Started face recognition process.
+2025-03-25 13:55:07,196 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:55:07,197 - INFO - Detected 1 faces.
+2025-03-25 13:55:07,315 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6408)
+2025-03-25 13:55:07,449 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:55:07,452 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:55:12,466 - ERROR - Error processing face 1: 'int' object is not callable
+2025-03-25 13:55:23,570 - HEALTH - System Health - CPU Usage: 9.0%, Memory Usage: 78.5%, Disk Usage: 35.3%
+2025-03-25 13:55:23,572 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:55:23,572 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:55:23,643 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:55:23,643 - INFO - Detected 1 faces.
+2025-03-25 13:55:23,737 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5651)
+2025-03-25 13:55:23,869 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:55:23,870 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:55:28,886 - ERROR - Error processing face 1: 'int' object is not callable
+2025-03-25 13:55:39,969 - HEALTH - System Health - CPU Usage: 6.9%, Memory Usage: 78.7%, Disk Usage: 35.3%
+2025-03-25 13:55:39,969 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:55:39,969 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:55:40,052 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:55:40,052 - INFO - Detected 1 faces.
+2025-03-25 13:55:40,153 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6048)
+2025-03-25 13:55:40,287 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:55:40,288 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:55:45,297 - ERROR - Error processing face 1: 'int' object is not callable
+2025-03-25 13:55:56,374 - HEALTH - System Health - CPU Usage: 4.8%, Memory Usage: 78.7%, Disk Usage: 35.3%
+2025-03-25 13:55:56,374 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:55:56,374 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:55:56,452 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:55:56,452 - INFO - Detected 1 faces.
+2025-03-25 13:55:56,555 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6718)
+2025-03-25 13:55:56,695 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:55:56,697 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:56:01,705 - ERROR - Error processing face 1: 'int' object is not callable
+2025-03-25 13:56:12,816 - HEALTH - System Health - CPU Usage: 9.5%, Memory Usage: 78.9%, Disk Usage: 35.3%
+2025-03-25 13:56:12,816 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:56:12,816 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:56:12,909 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:56:12,909 - INFO - Detected 1 faces.
+2025-03-25 13:56:13,009 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6968)
+2025-03-25 13:56:13,150 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:56:13,151 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:56:18,158 - ERROR - Error processing face 1: 'int' object is not callable
+2025-03-25 13:56:29,186 - HEALTH - System Health - CPU Usage: 6.8%, Memory Usage: 78.8%, Disk Usage: 35.3%
+2025-03-25 13:56:29,186 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:56:29,186 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:56:29,255 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:56:29,255 - INFO - Detected 1 faces.
+2025-03-25 13:56:29,352 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5336)
+2025-03-25 13:56:29,488 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:56:29,489 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:56:34,500 - ERROR - Error processing face 1: 'int' object is not callable
+2025-03-25 13:56:45,527 - HEALTH - System Health - CPU Usage: 4.7%, Memory Usage: 79.0%, Disk Usage: 35.3%
+2025-03-25 13:56:45,527 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:56:45,527 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:56:45,592 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:56:45,592 - INFO - Detected 1 faces.
+2025-03-25 13:56:45,685 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6947)
+2025-03-25 13:56:45,805 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:56:45,806 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:56:50,813 - ERROR - Error processing face 1: 'int' object is not callable
+2025-03-25 13:57:01,847 - HEALTH - System Health - CPU Usage: 34.6%, Memory Usage: 79.1%, Disk Usage: 35.3%
+2025-03-25 13:57:01,847 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:57:01,847 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:57:02,090 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:57:02,090 - INFO - Detected 1 faces.
+2025-03-25 13:57:02,197 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5606)
+2025-03-25 13:57:02,373 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:57:02,374 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:57:07,388 - ERROR - Error processing face 1: 'int' object is not callable
+2025-03-25 13:58:08,383 - INFO - Started face recognition process.
+2025-03-25 13:58:10,467 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:58:10,467 - INFO - Detected 1 faces.
+2025-03-25 13:58:10,587 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5906)
+2025-03-25 13:58:10,737 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.97)
+2025-03-25 13:58:10,741 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:58:15,755 - ERROR - Error processing face 1: 'int' object is not callable
+2025-03-25 13:58:26,847 - HEALTH - System Health - CPU Usage: 10.3%, Memory Usage: 79.3%, Disk Usage: 35.3%
+2025-03-25 13:58:26,847 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:58:26,847 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:58:26,930 - HEALTH - Average Face Detection Confidence: 0.91
+2025-03-25 13:58:26,930 - INFO - Detected 2 faces.
+2025-03-25 13:58:27,022 - INFO - Recognition Result: Unknown (Distance: 0.8728)
+2025-03-25 13:58:27,153 - INFO - Real Face Detected: Unknown (Score: 1.00)
+2025-03-25 13:58:27,154 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:58:32,169 - ERROR - Error processing face 1: 'int' object is not callable
+2025-03-25 13:58:32,175 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:58:43,243 - HEALTH - System Health - CPU Usage: 17.0%, Memory Usage: 79.4%, Disk Usage: 35.3%
+2025-03-25 13:58:43,243 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:58:43,243 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:58:43,330 - HEALTH - Average Face Detection Confidence: 0.97
+2025-03-25 13:58:43,331 - INFO - Detected 2 faces.
+2025-03-25 13:58:43,444 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6058)
+2025-03-25 13:58:43,587 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:58:43,589 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:58:48,602 - ERROR - Error processing face 1: 'int' object is not callable
+2025-03-25 13:58:48,608 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 13:58:59,717 - HEALTH - System Health - CPU Usage: 8.8%, Memory Usage: 79.2%, Disk Usage: 35.3%
+2025-03-25 13:58:59,717 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:58:59,717 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:58:59,799 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:58:59,799 - INFO - Detected 1 faces.
+2025-03-25 13:58:59,904 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7396)
+2025-03-25 13:59:00,081 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:59:00,083 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:59:05,085 - ERROR - Error processing face 1: 'int' object is not callable
+2025-03-25 13:59:16,176 - HEALTH - System Health - CPU Usage: 8.3%, Memory Usage: 79.3%, Disk Usage: 35.3%
+2025-03-25 13:59:16,177 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:59:16,177 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:59:16,262 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:59:16,262 - INFO - Detected 1 faces.
+2025-03-25 13:59:16,363 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6242)
+2025-03-25 13:59:16,497 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:59:16,498 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:59:21,501 - ERROR - Error processing face 1: 'int' object is not callable
+2025-03-25 13:59:32,532 - HEALTH - System Health - CPU Usage: 4.7%, Memory Usage: 79.0%, Disk Usage: 35.3%
+2025-03-25 13:59:32,532 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 13:59:32,532 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 13:59:32,598 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 13:59:32,598 - INFO - Detected 1 faces.
+2025-03-25 13:59:32,684 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6453)
+2025-03-25 13:59:32,805 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 13:59:32,806 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 13:59:37,813 - ERROR - Error processing face 1: 'int' object is not callable
+2025-03-25 14:01:05,282 - INFO - Started face recognition process.
+2025-03-25 14:01:07,253 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 14:01:07,258 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:01:12,271 - DEBUG - Attempt 1 failed to send command to ESP32: HTTPConnectionPool(host='192.168.43.199', port=80): Max retries exceeded with url: /led?cmd=yellow (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002476319ACB0>, 'Connection to 192.168.43.199 timed out. (connect timeout=5)'))
+2025-03-25 14:01:13,286 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:01:18,294 - DEBUG - Attempt 2 failed to send command to ESP32: HTTPConnectionPool(host='192.168.43.199', port=80): Max retries exceeded with url: /led?cmd=yellow (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002476319AC20>, 'Connection to 192.168.43.199 timed out. (connect timeout=5)'))
+2025-03-25 14:01:19,307 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:01:24,310 - DEBUG - Attempt 3 failed to send command to ESP32: HTTPConnectionPool(host='192.168.43.199', port=80): Max retries exceeded with url: /led?cmd=yellow (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000024763199F90>, 'Connection to 192.168.43.199 timed out. (connect timeout=5)'))
+2025-03-25 14:01:25,318 - DEBUG - ESP32 not available after 3 attempts. Disabling further ESP communication.
+2025-03-25 14:01:31,410 - HEALTH - System Health - CPU Usage: 11.2%, Memory Usage: 78.0%, Disk Usage: 35.3%
+2025-03-25 14:01:31,410 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:01:31,410 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:01:31,485 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:01:31,485 - INFO - Detected 1 faces.
+2025-03-25 14:01:31,592 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7103)
+2025-03-25 14:01:31,734 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.99)
+2025-03-25 14:01:42,825 - HEALTH - System Health - CPU Usage: 10.4%, Memory Usage: 78.4%, Disk Usage: 35.3%
+2025-03-25 14:01:42,825 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:01:42,825 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.093s, Avg Anti-Spoofing Test Time: 0.135s
+2025-03-25 14:01:42,891 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:01:42,891 - INFO - Detected 1 faces.
+2025-03-25 14:01:42,988 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5466)
+2025-03-25 14:01:43,115 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:01:54,156 - HEALTH - System Health - CPU Usage: 24.4%, Memory Usage: 78.4%, Disk Usage: 35.3%
+2025-03-25 14:01:54,156 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:01:54,156 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.083s, Avg Anti-Spoofing Test Time: 0.121s
+2025-03-25 14:01:54,239 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:01:54,239 - INFO - Detected 1 faces.
+2025-03-25 14:01:54,359 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6606)
+2025-03-25 14:01:54,479 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:02:05,510 - HEALTH - System Health - CPU Usage: 4.2%, Memory Usage: 78.5%, Disk Usage: 35.3%
+2025-03-25 14:02:05,510 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:02:05,510 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.104s, Avg Anti-Spoofing Test Time: 0.114s
+2025-03-25 14:02:05,568 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:02:05,568 - INFO - Detected 1 faces.
+2025-03-25 14:02:05,654 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5339)
+2025-03-25 14:02:05,784 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:02:16,828 - HEALTH - System Health - CPU Usage: 6.4%, Memory Usage: 78.7%, Disk Usage: 35.3%
+2025-03-25 14:02:16,828 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:02:16,828 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.072s, Avg Anti-Spoofing Test Time: 0.124s
+2025-03-25 14:02:16,919 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:02:16,919 - INFO - Detected 1 faces.
+2025-03-25 14:02:17,017 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6654)
+2025-03-25 14:02:17,136 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:02:28,233 - HEALTH - System Health - CPU Usage: 7.6%, Memory Usage: 78.7%, Disk Usage: 35.3%
+2025-03-25 14:02:28,233 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:02:28,233 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.086s, Avg Anti-Spoofing Test Time: 0.112s
+2025-03-25 14:02:28,316 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:02:28,317 - INFO - Detected 1 faces.
+2025-03-25 14:02:28,415 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7591)
+2025-03-25 14:02:28,540 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:02:39,620 - HEALTH - System Health - CPU Usage: 3.1%, Memory Usage: 78.7%, Disk Usage: 35.3%
+2025-03-25 14:02:39,620 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:02:39,620 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.087s, Avg Anti-Spoofing Test Time: 0.118s
+2025-03-25 14:02:39,701 - HEALTH - Average Face Detection Confidence: 0.91
+2025-03-25 14:02:39,701 - INFO - Detected 2 faces.
+2025-03-25 14:02:39,798 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6944)
+2025-03-25 14:02:39,930 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:02:39,933 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 14:02:51,036 - HEALTH - System Health - CPU Usage: 3.8%, Memory Usage: 78.7%, Disk Usage: 35.3%
+2025-03-25 14:02:51,036 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:02:51,036 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.084s, Avg Anti-Spoofing Test Time: 0.125s
+2025-03-25 14:02:51,114 - HEALTH - Average Face Detection Confidence: 0.96
+2025-03-25 14:02:51,114 - INFO - Detected 2 faces.
+2025-03-25 14:02:51,206 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6485)
+2025-03-25 14:02:51,368 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:02:51,370 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 14:03:02,450 - HEALTH - System Health - CPU Usage: 3.9%, Memory Usage: 78.7%, Disk Usage: 35.3%
+2025-03-25 14:03:02,450 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:03:02,450 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.076s, Avg Anti-Spoofing Test Time: 0.157s
+2025-03-25 14:03:02,531 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:03:02,531 - INFO - Detected 1 faces.
+2025-03-25 14:03:02,615 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6699)
+2025-03-25 14:03:02,736 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:03:13,827 - HEALTH - System Health - CPU Usage: 4.8%, Memory Usage: 78.9%, Disk Usage: 35.3%
+2025-03-25 14:03:13,828 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:03:13,828 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.074s, Avg Anti-Spoofing Test Time: 0.116s
+2025-03-25 14:03:13,906 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:03:13,906 - INFO - Detected 1 faces.
+2025-03-25 14:03:13,996 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7045)
+2025-03-25 14:03:14,123 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:03:25,220 - HEALTH - System Health - CPU Usage: 5.6%, Memory Usage: 79.3%, Disk Usage: 35.3%
+2025-03-25 14:03:25,220 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:03:25,220 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.080s, Avg Anti-Spoofing Test Time: 0.120s
+2025-03-25 14:03:25,295 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:03:25,295 - INFO - Detected 1 faces.
+2025-03-25 14:03:25,389 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6738)
+2025-03-25 14:03:25,516 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:03:36,544 - HEALTH - System Health - CPU Usage: 8.6%, Memory Usage: 79.3%, Disk Usage: 35.3%
+2025-03-25 14:03:36,544 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:03:36,544 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.081s, Avg Anti-Spoofing Test Time: 0.122s
+2025-03-25 14:03:36,622 - HEALTH - Average Face Detection Confidence: 0.97
+2025-03-25 14:03:36,622 - INFO - Detected 2 faces.
+2025-03-25 14:03:36,706 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5894)
+2025-03-25 14:03:36,826 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:03:36,900 - INFO - Recognition Result: Unknown (Distance: 1.2550)
+2025-03-25 14:03:37,014 - INFO - Real Face Detected: Unknown (Score: 1.00)
+2025-03-25 14:03:48,039 - HEALTH - System Health - CPU Usage: 13.0%, Memory Usage: 79.6%, Disk Usage: 35.3%
+2025-03-25 14:03:48,039 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:03:48,039 - HEALTH - AI Metrics - Faces Processed: 2, Avg Face Embedding Inference Time: 0.068s, Avg Anti-Spoofing Test Time: 0.111s
+2025-03-25 14:03:48,125 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:03:48,125 - INFO - Detected 1 faces.
+2025-03-25 14:03:48,218 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6217)
+2025-03-25 14:03:48,334 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:03:59,376 - HEALTH - System Health - CPU Usage: 5.3%, Memory Usage: 79.5%, Disk Usage: 35.3%
+2025-03-25 14:03:59,376 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:03:59,376 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.080s, Avg Anti-Spoofing Test Time: 0.110s
+2025-03-25 14:03:59,445 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:03:59,445 - INFO - Detected 1 faces.
+2025-03-25 14:03:59,533 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6810)
+2025-03-25 14:03:59,654 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.99)
+2025-03-25 14:04:10,682 - HEALTH - System Health - CPU Usage: 8.1%, Memory Usage: 79.5%, Disk Usage: 35.3%
+2025-03-25 14:04:10,682 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:04:10,682 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.074s, Avg Anti-Spoofing Test Time: 0.116s
+2025-03-25 14:04:10,756 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:04:10,757 - INFO - Detected 1 faces.
+2025-03-25 14:04:10,847 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5886)
+2025-03-25 14:04:10,957 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:04:21,998 - HEALTH - System Health - CPU Usage: 38.3%, Memory Usage: 79.5%, Disk Usage: 35.3%
+2025-03-25 14:04:21,998 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:04:21,998 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.077s, Avg Anti-Spoofing Test Time: 0.105s
+2025-03-25 14:04:22,087 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:04:22,087 - INFO - Detected 1 faces.
+2025-03-25 14:04:22,197 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6511)
+2025-03-25 14:04:22,361 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:04:33,392 - HEALTH - System Health - CPU Usage: 41.4%, Memory Usage: 79.5%, Disk Usage: 35.3%
+2025-03-25 14:04:33,392 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:04:33,392 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.096s, Avg Anti-Spoofing Test Time: 0.158s
+2025-03-25 14:04:33,477 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:04:33,477 - INFO - Detected 1 faces.
+2025-03-25 14:04:33,578 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6897)
+2025-03-25 14:04:33,705 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:04:44,732 - HEALTH - System Health - CPU Usage: 8.1%, Memory Usage: 79.5%, Disk Usage: 35.3%
+2025-03-25 14:04:44,732 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:04:44,732 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.088s, Avg Anti-Spoofing Test Time: 0.122s
+2025-03-25 14:04:44,814 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:04:44,814 - INFO - Detected 1 faces.
+2025-03-25 14:04:44,899 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7144)
+2025-03-25 14:04:45,012 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:04:56,030 - HEALTH - System Health - CPU Usage: 5.0%, Memory Usage: 79.4%, Disk Usage: 35.3%
+2025-03-25 14:04:56,030 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:04:56,030 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.075s, Avg Anti-Spoofing Test Time: 0.108s
+2025-03-25 14:04:56,113 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:04:56,113 - INFO - Detected 1 faces.
+2025-03-25 14:04:56,207 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6772)
+2025-03-25 14:04:56,323 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:05:07,354 - HEALTH - System Health - CPU Usage: 52.1%, Memory Usage: 78.6%, Disk Usage: 35.3%
+2025-03-25 14:05:07,354 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:05:07,354 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.082s, Avg Anti-Spoofing Test Time: 0.110s
+2025-03-25 14:05:07,446 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:05:07,447 - INFO - Detected 1 faces.
+2025-03-25 14:05:07,536 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6625)
+2025-03-25 14:05:07,649 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:05:18,672 - HEALTH - System Health - CPU Usage: 3.0%, Memory Usage: 78.7%, Disk Usage: 35.3%
+2025-03-25 14:05:18,672 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:05:18,672 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.077s, Avg Anti-Spoofing Test Time: 0.107s
+2025-03-25 14:05:18,743 - HEALTH - Average Face Detection Confidence: 0.88
+2025-03-25 14:05:18,743 - INFO - Detected 1 faces.
+2025-03-25 14:05:18,817 - INFO - Recognition Result: Unknown (Distance: 0.8532)
+2025-03-25 14:05:18,935 - INFO - Real Face Detected: Unknown (Score: 1.00)
+2025-03-25 14:05:29,970 - HEALTH - System Health - CPU Usage: 5.2%, Memory Usage: 78.7%, Disk Usage: 35.3%
+2025-03-25 14:05:29,970 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:05:29,970 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.064s, Avg Anti-Spoofing Test Time: 0.113s
+2025-03-25 14:05:30,053 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:05:30,053 - INFO - Detected 1 faces.
+2025-03-25 14:05:30,147 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7312)
+2025-03-25 14:05:30,255 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:05:41,280 - HEALTH - System Health - CPU Usage: 51.7%, Memory Usage: 78.7%, Disk Usage: 35.3%
+2025-03-25 14:05:41,280 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:05:41,280 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.080s, Avg Anti-Spoofing Test Time: 0.102s
+2025-03-25 14:05:41,387 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:05:41,387 - INFO - Detected 1 faces.
+2025-03-25 14:05:41,486 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6553)
+2025-03-25 14:05:41,613 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:05:52,636 - HEALTH - System Health - CPU Usage: 7.7%, Memory Usage: 78.7%, Disk Usage: 35.3%
+2025-03-25 14:05:52,636 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:05:52,636 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.088s, Avg Anti-Spoofing Test Time: 0.121s
+2025-03-25 14:05:52,727 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:05:52,727 - INFO - Detected 1 faces.
+2025-03-25 14:05:52,824 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6601)
+2025-03-25 14:05:52,985 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:06:04,016 - HEALTH - System Health - CPU Usage: 6.0%, Memory Usage: 78.7%, Disk Usage: 35.3%
+2025-03-25 14:06:04,016 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:06:04,016 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.086s, Avg Anti-Spoofing Test Time: 0.156s
+2025-03-25 14:06:04,102 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:06:04,102 - INFO - Detected 1 faces.
+2025-03-25 14:06:04,207 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6458)
+2025-03-25 14:06:04,341 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:06:15,378 - HEALTH - System Health - CPU Usage: 7.1%, Memory Usage: 78.6%, Disk Usage: 35.3%
+2025-03-25 14:06:15,378 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:06:15,378 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.093s, Avg Anti-Spoofing Test Time: 0.128s
+2025-03-25 14:06:15,449 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:06:15,450 - INFO - Detected 1 faces.
+2025-03-25 14:06:15,541 - INFO - Recognition Result: ahsan latif_7838220 (Distance: 0.6845)
+2025-03-25 14:06:15,647 - INFO - Real Face Detected: ahsan latif_7838220 (Score: 1.00)
+2025-03-25 14:06:26,720 - HEALTH - System Health - CPU Usage: 55.2%, Memory Usage: 78.7%, Disk Usage: 35.3%
+2025-03-25 14:06:26,720 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:06:26,720 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.079s, Avg Anti-Spoofing Test Time: 0.101s
+2025-03-25 14:06:26,923 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:06:26,925 - INFO - Detected 1 faces.
+2025-03-25 14:06:27,034 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6050)
+2025-03-25 14:06:27,170 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:06:38,197 - HEALTH - System Health - CPU Usage: 19.9%, Memory Usage: 79.1%, Disk Usage: 35.3%
+2025-03-25 14:06:38,197 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:06:38,197 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.097s, Avg Anti-Spoofing Test Time: 0.130s
+2025-03-25 14:06:38,447 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:06:38,447 - INFO - Detected 1 faces.
+2025-03-25 14:06:38,634 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6577)
+2025-03-25 14:06:39,036 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:06:39,389 - INFO - Gracefully stopping the face recognition process...
+2025-03-25 14:07:06,913 - INFO - Started face recognition process.
+2025-03-25 14:07:08,758 - HEALTH - Average Face Detection Confidence: 0.87
+2025-03-25 14:07:08,759 - INFO - Detected 2 faces.
+2025-03-25 14:07:08,851 - INFO - Recognition Result: Unknown (Distance: 0.8281)
+2025-03-25 14:07:08,977 - INFO - Real Face Detected: Unknown (Score: 0.95)
+2025-03-25 14:07:08,977 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:07:09,081 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:07:09,089 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 14:07:20,186 - HEALTH - System Health - CPU Usage: 14.0%, Memory Usage: 78.9%, Disk Usage: 35.3%
+2025-03-25 14:07:20,186 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:07:20,186 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:07:20,268 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:07:20,268 - INFO - Detected 1 faces.
+2025-03-25 14:07:20,352 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7057)
+2025-03-25 14:07:20,474 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.96)
+2025-03-25 14:07:20,475 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:07:20,475 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:07:31,559 - HEALTH - System Health - CPU Usage: 5.4%, Memory Usage: 79.3%, Disk Usage: 35.3%
+2025-03-25 14:07:31,559 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:07:31,559 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:07:31,632 - HEALTH - Average Face Detection Confidence: 0.98
+2025-03-25 14:07:31,632 - INFO - Detected 2 faces.
+2025-03-25 14:07:31,727 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7418)
+2025-03-25 14:07:31,861 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:07:31,861 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:07:31,861 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:07:32,321 - ERROR - Error processing face 2: torch.cat(): expected a non-empty list of Tensors
+2025-03-25 14:07:43,417 - HEALTH - System Health - CPU Usage: 14.0%, Memory Usage: 79.4%, Disk Usage: 35.3%
+2025-03-25 14:07:43,417 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:07:43,417 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:07:43,506 - HEALTH - Average Face Detection Confidence: 0.97
+2025-03-25 14:07:43,506 - INFO - Detected 2 faces.
+2025-03-25 14:07:43,622 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7654)
+2025-03-25 14:07:43,753 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:07:43,754 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:07:43,754 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:07:43,754 - ERROR - Error processing face 2: torch.cat(): expected a non-empty list of Tensors
+2025-03-25 14:07:54,791 - HEALTH - System Health - CPU Usage: 12.3%, Memory Usage: 79.6%, Disk Usage: 35.3%
+2025-03-25 14:07:54,791 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:07:54,791 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:07:54,860 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:07:54,861 - INFO - Detected 1 faces.
+2025-03-25 14:07:54,956 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6330)
+2025-03-25 14:07:55,079 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:07:55,079 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:07:55,079 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:08:06,123 - HEALTH - System Health - CPU Usage: 21.0%, Memory Usage: 79.5%, Disk Usage: 35.3%
+2025-03-25 14:08:06,124 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:08:06,124 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:08:06,197 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:08:06,197 - INFO - Detected 1 faces.
+2025-03-25 14:08:06,287 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6116)
+2025-03-25 14:08:06,406 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:08:06,406 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:08:06,406 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:08:17,432 - HEALTH - System Health - CPU Usage: 6.5%, Memory Usage: 79.5%, Disk Usage: 35.3%
+2025-03-25 14:08:17,432 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:08:17,432 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:08:17,514 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:08:17,514 - INFO - Detected 1 faces.
+2025-03-25 14:08:17,600 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6294)
+2025-03-25 14:08:17,714 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:08:17,714 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:08:17,714 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:08:28,734 - HEALTH - System Health - CPU Usage: 8.3%, Memory Usage: 79.7%, Disk Usage: 35.3%
+2025-03-25 14:08:28,734 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:08:28,734 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:08:28,806 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:08:28,807 - INFO - Detected 1 faces.
+2025-03-25 14:08:28,886 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6263)
+2025-03-25 14:08:29,001 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:08:29,002 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:08:29,002 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:08:40,092 - HEALTH - System Health - CPU Usage: 5.2%, Memory Usage: 79.7%, Disk Usage: 35.3%
+2025-03-25 14:08:40,092 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:08:40,092 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:08:40,160 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 14:08:40,160 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:08:40,160 - ERROR - Unexpected error in main System: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:08:45,306 - HEALTH - Average Face Detection Confidence: 0.96
+2025-03-25 14:08:45,306 - INFO - Detected 2 faces.
+2025-03-25 14:08:45,398 - INFO - Recognition Result: ahsan latif_7838220 (Distance: 0.6367)
+2025-03-25 14:08:45,553 - INFO - Real Face Detected: ahsan latif_7838220 (Score: 1.00)
+2025-03-25 14:08:45,554 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:08:45,554 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:08:45,554 - ERROR - Error processing face 2: torch.cat(): expected a non-empty list of Tensors
+2025-03-25 14:08:56,579 - HEALTH - System Health - CPU Usage: 7.4%, Memory Usage: 79.4%, Disk Usage: 35.3%
+2025-03-25 14:08:56,581 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:08:56,581 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:08:56,658 - HEALTH - Average Face Detection Confidence: 0.97
+2025-03-25 14:08:56,658 - INFO - Detected 2 faces.
+2025-03-25 14:08:56,740 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6900)
+2025-03-25 14:08:56,853 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:08:56,854 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:08:56,854 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:08:56,924 - INFO - Recognition Result: Unknown (Distance: 1.3277)
+2025-03-25 14:08:57,042 - INFO - Real Face Detected: Unknown (Score: 1.00)
+2025-03-25 14:08:57,042 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:08:57,042 - ERROR - Error processing face 2: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:09:08,142 - HEALTH - System Health - CPU Usage: 11.8%, Memory Usage: 79.5%, Disk Usage: 35.3%
+2025-03-25 14:09:08,143 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:09:08,143 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:09:08,223 - HEALTH - Average Face Detection Confidence: 0.90
+2025-03-25 14:09:08,223 - INFO - Detected 2 faces.
+2025-03-25 14:09:08,335 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7258)
+2025-03-25 14:09:08,469 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:09:08,471 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:09:08,472 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:09:08,553 - INFO - Recognition Result: Unknown (Distance: 1.2460)
+2025-03-25 14:09:08,678 - INFO - Real Face Detected: Unknown (Score: 1.00)
+2025-03-25 14:09:08,678 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:09:08,678 - ERROR - Error processing face 2: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:09:19,699 - HEALTH - System Health - CPU Usage: 6.2%, Memory Usage: 79.7%, Disk Usage: 35.3%
+2025-03-25 14:09:19,699 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:09:19,699 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:09:19,768 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:09:19,768 - INFO - Detected 1 faces.
+2025-03-25 14:09:19,847 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6294)
+2025-03-25 14:09:19,964 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:09:19,965 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:09:19,965 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:09:30,995 - HEALTH - System Health - CPU Usage: 10.8%, Memory Usage: 79.9%, Disk Usage: 35.3%
+2025-03-25 14:09:30,995 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:09:30,995 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:09:31,062 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:09:31,062 - INFO - Detected 1 faces.
+2025-03-25 14:09:31,139 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5338)
+2025-03-25 14:09:31,258 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:09:31,258 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:09:31,259 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:09:42,291 - HEALTH - System Health - CPU Usage: 6.9%, Memory Usage: 79.8%, Disk Usage: 35.3%
+2025-03-25 14:09:42,291 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:09:42,291 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:09:42,349 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:09:42,349 - INFO - Detected 1 faces.
+2025-03-25 14:09:42,428 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5799)
+2025-03-25 14:09:42,542 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:09:42,542 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:09:42,543 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:09:53,575 - HEALTH - System Health - CPU Usage: 6.5%, Memory Usage: 80.3%, Disk Usage: 35.3%
+2025-03-25 14:09:53,575 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:09:53,575 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:09:53,646 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:09:53,646 - INFO - Detected 1 faces.
+2025-03-25 14:09:53,731 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5374)
+2025-03-25 14:09:53,880 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:09:53,880 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:09:53,880 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:10:04,911 - HEALTH - System Health - CPU Usage: 4.6%, Memory Usage: 79.6%, Disk Usage: 35.3%
+2025-03-25 14:10:04,911 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:10:04,911 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:10:04,993 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:10:04,993 - INFO - Detected 1 faces.
+2025-03-25 14:10:05,082 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.4920)
+2025-03-25 14:10:05,201 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.94)
+2025-03-25 14:10:05,202 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:10:05,202 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:10:16,225 - HEALTH - System Health - CPU Usage: 21.8%, Memory Usage: 80.1%, Disk Usage: 35.3%
+2025-03-25 14:10:16,225 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:10:16,225 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:10:16,306 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:10:16,306 - INFO - Detected 1 faces.
+2025-03-25 14:10:16,398 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5673)
+2025-03-25 14:10:16,534 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:10:16,536 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:10:16,536 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:10:27,566 - HEALTH - System Health - CPU Usage: 8.6%, Memory Usage: 80.1%, Disk Usage: 35.3%
+2025-03-25 14:10:27,566 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:10:27,566 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:10:27,646 - HEALTH - Average Face Detection Confidence: 0.97
+2025-03-25 14:10:27,646 - INFO - Detected 2 faces.
+2025-03-25 14:10:27,731 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5987)
+2025-03-25 14:10:27,838 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.99)
+2025-03-25 14:10:27,838 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:10:27,838 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:10:27,840 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 14:10:38,869 - HEALTH - System Health - CPU Usage: 6.4%, Memory Usage: 80.0%, Disk Usage: 35.3%
+2025-03-25 14:10:38,869 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:10:38,869 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:10:38,937 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:10:38,938 - INFO - Detected 1 faces.
+2025-03-25 14:10:39,021 - INFO - Recognition Result: ahsan latif_7838220 (Distance: 0.7392)
+2025-03-25 14:10:39,142 - INFO - Real Face Detected: ahsan latif_7838220 (Score: 1.00)
+2025-03-25 14:10:39,143 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:10:39,143 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:10:50,169 - HEALTH - System Health - CPU Usage: 8.8%, Memory Usage: 80.1%, Disk Usage: 35.3%
+2025-03-25 14:10:50,169 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:10:50,169 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:10:50,234 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:10:50,234 - INFO - Detected 1 faces.
+2025-03-25 14:10:50,312 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7350)
+2025-03-25 14:10:50,427 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:10:50,428 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:10:50,429 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:11:01,465 - HEALTH - System Health - CPU Usage: 3.9%, Memory Usage: 79.9%, Disk Usage: 35.3%
+2025-03-25 14:11:01,465 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:11:01,465 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:11:01,537 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:11:01,537 - INFO - Detected 1 faces.
+2025-03-25 14:11:01,626 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7069)
+2025-03-25 14:11:01,739 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:11:01,740 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:11:01,740 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:11:12,776 - HEALTH - System Health - CPU Usage: 73.5%, Memory Usage: 80.9%, Disk Usage: 35.3%
+2025-03-25 14:11:12,776 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:11:12,776 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:11:12,883 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:11:12,883 - INFO - Detected 1 faces.
+2025-03-25 14:11:12,978 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5905)
+2025-03-25 14:11:13,105 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:11:13,106 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:11:13,106 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:11:24,163 - HEALTH - System Health - CPU Usage: 39.3%, Memory Usage: 81.4%, Disk Usage: 35.3%
+2025-03-25 14:11:24,163 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:11:24,163 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:11:24,287 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:11:24,287 - INFO - Detected 1 faces.
+2025-03-25 14:11:24,365 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5724)
+2025-03-25 14:11:24,518 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.99)
+2025-03-25 14:11:24,519 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:11:24,519 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:11:35,543 - HEALTH - System Health - CPU Usage: 5.5%, Memory Usage: 81.3%, Disk Usage: 35.3%
+2025-03-25 14:11:35,543 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:11:35,543 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:11:35,612 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:11:35,612 - INFO - Detected 1 faces.
+2025-03-25 14:11:35,689 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6319)
+2025-03-25 14:11:35,805 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:11:35,805 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:11:35,805 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:11:46,830 - HEALTH - System Health - CPU Usage: 48.9%, Memory Usage: 80.8%, Disk Usage: 35.3%
+2025-03-25 14:11:46,830 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:11:46,830 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:11:46,907 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:11:46,907 - INFO - Detected 1 faces.
+2025-03-25 14:11:46,993 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6295)
+2025-03-25 14:11:47,111 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.99)
+2025-03-25 14:11:47,112 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:11:47,112 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:11:58,149 - HEALTH - System Health - CPU Usage: 10.5%, Memory Usage: 81.0%, Disk Usage: 35.3%
+2025-03-25 14:11:58,149 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:11:58,149 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:11:58,214 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:11:58,214 - INFO - Detected 1 faces.
+2025-03-25 14:11:58,293 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6251)
+2025-03-25 14:11:58,404 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:11:58,405 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:11:58,405 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:12:09,428 - HEALTH - System Health - CPU Usage: 6.4%, Memory Usage: 81.0%, Disk Usage: 35.3%
+2025-03-25 14:12:09,428 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:12:09,428 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:12:09,499 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:12:09,499 - INFO - Detected 1 faces.
+2025-03-25 14:12:09,582 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6833)
+2025-03-25 14:12:09,699 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.97)
+2025-03-25 14:12:09,700 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:12:09,700 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:12:20,723 - HEALTH - System Health - CPU Usage: 9.7%, Memory Usage: 80.9%, Disk Usage: 35.3%
+2025-03-25 14:12:20,723 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:12:20,723 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:12:20,798 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:12:20,798 - INFO - Detected 1 faces.
+2025-03-25 14:12:20,886 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7264)
+2025-03-25 14:12:20,999 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.96)
+2025-03-25 14:12:20,999 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:12:20,999 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:12:32,020 - HEALTH - System Health - CPU Usage: 12.9%, Memory Usage: 80.8%, Disk Usage: 35.3%
+2025-03-25 14:12:32,021 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:12:32,021 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:12:32,095 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:12:32,095 - INFO - Detected 1 faces.
+2025-03-25 14:12:32,177 - INFO - Recognition Result: ahsan latif_7838220 (Distance: 0.7525)
+2025-03-25 14:12:32,306 - INFO - Real Face Detected: ahsan latif_7838220 (Score: 1.00)
+2025-03-25 14:12:32,307 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:12:32,307 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:12:43,328 - HEALTH - System Health - CPU Usage: 9.7%, Memory Usage: 80.8%, Disk Usage: 35.3%
+2025-03-25 14:12:43,329 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:12:43,329 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:12:43,395 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:12:43,395 - INFO - Detected 1 faces.
+2025-03-25 14:12:43,478 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6051)
+2025-03-25 14:12:43,599 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:12:43,600 - DEBUG - \U0001f50d Initiating communication with ESP32...
+2025-03-25 14:12:43,600 - ERROR - Error processing face 1: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-03-25 14:12:44,555 - INFO - Gracefully stopping the face recognition process...
+2025-03-25 14:13:10,415 - INFO - Started face recognition process.
+2025-03-25 14:13:12,277 - HEALTH - Average Face Detection Confidence: 0.96
+2025-03-25 14:13:12,277 - INFO - Detected 2 faces.
+2025-03-25 14:13:12,370 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7425)
+2025-03-25 14:13:12,502 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.98)
+2025-03-25 14:13:12,507 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:13:17,512 - DEBUG - Attempt 1: Unable to reach ESP32 Retrying...
+2025-03-25 14:13:20,520 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:13:25,531 - DEBUG - Attempt 2: Unable to reach ESP32 Retrying...
+2025-03-25 14:13:28,546 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:13:33,557 - DEBUG - Attempt 3: Unable to reach ESP32 Retrying...
+2025-03-25 14:13:36,571 - DEBUG - ESP32 not available after 3 attempts. Future ESP32 communication are Disabled automatically
+2025-03-25 14:13:36,574 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 14:13:47,682 - HEALTH - System Health - CPU Usage: 7.9%, Memory Usage: 80.0%, Disk Usage: 35.3%
+2025-03-25 14:13:47,682 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:13:47,682 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.081s, Avg Anti-Spoofing Test Time: 0.125s
+2025-03-25 14:13:47,751 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:13:47,751 - INFO - Detected 1 faces.
+2025-03-25 14:13:47,849 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6966)
+2025-03-25 14:13:47,988 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:13:59,059 - HEALTH - System Health - CPU Usage: 8.7%, Memory Usage: 80.0%, Disk Usage: 35.3%
+2025-03-25 14:13:59,059 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:13:59,059 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.083s, Avg Anti-Spoofing Test Time: 0.134s
+2025-03-25 14:13:59,131 - HEALTH - Average Face Detection Confidence: 0.88
+2025-03-25 14:13:59,132 - INFO - Detected 2 faces.
+2025-03-25 14:13:59,240 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5317)
+2025-03-25 14:13:59,529 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:14:00,041 - ERROR - Error processing face 2: torch.cat(): expected a non-empty list of Tensors
+2025-03-25 14:14:11,077 - HEALTH - System Health - CPU Usage: 3.4%, Memory Usage: 80.7%, Disk Usage: 35.3%
+2025-03-25 14:14:11,077 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:14:11,077 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.095s, Avg Anti-Spoofing Test Time: 0.113s
+2025-03-25 14:14:11,150 - HEALTH - Average Face Detection Confidence: 0.94
+2025-03-25 14:14:11,150 - INFO - Detected 2 faces.
+2025-03-25 14:14:11,235 - INFO - Recognition Result: Unknown (Distance: 0.8079)
+2025-03-25 14:14:11,350 - INFO - Real Face Detected: Unknown (Score: 0.97)
+2025-03-25 14:14:11,420 - INFO - Recognition Result: Unknown (Distance: 1.2540)
+2025-03-25 14:14:11,542 - INFO - Real Face Detected: Unknown (Score: 0.97)
+2025-03-25 14:14:22,556 - HEALTH - System Health - CPU Usage: 11.6%, Memory Usage: 80.3%, Disk Usage: 35.3%
+2025-03-25 14:14:22,556 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:14:22,556 - HEALTH - AI Metrics - Faces Processed: 2, Avg Face Embedding Inference Time: 0.066s, Avg Anti-Spoofing Test Time: 0.114s
+2025-03-25 14:14:22,935 - HEALTH - Average Face Detection Confidence: 0.99
+2025-03-25 14:14:22,935 - INFO - Detected 2 faces.
+2025-03-25 14:14:23,050 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6032)
+2025-03-25 14:14:23,169 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.99)
+2025-03-25 14:14:23,245 - INFO - Recognition Result: Unknown (Distance: 1.3337)
+2025-03-25 14:14:23,368 - INFO - Real Face Detected: Unknown (Score: 0.99)
+2025-03-25 14:14:34,399 - HEALTH - System Health - CPU Usage: 18.4%, Memory Usage: 80.5%, Disk Usage: 35.3%
+2025-03-25 14:14:34,399 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:14:34,399 - HEALTH - AI Metrics - Faces Processed: 2, Avg Face Embedding Inference Time: 0.082s, Avg Anti-Spoofing Test Time: 0.115s
+2025-03-25 14:14:34,482 - HEALTH - Average Face Detection Confidence: 0.99
+2025-03-25 14:14:34,482 - INFO - Detected 2 faces.
+2025-03-25 14:14:34,574 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5984)
+2025-03-25 14:14:34,729 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.98)
+2025-03-25 14:14:34,731 - ERROR - Error processing face 2: torch.cat(): expected a non-empty list of Tensors
+2025-03-25 14:14:45,759 - HEALTH - System Health - CPU Usage: 7.7%, Memory Usage: 77.6%, Disk Usage: 35.3%
+2025-03-25 14:14:45,759 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:14:45,759 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.081s, Avg Anti-Spoofing Test Time: 0.150s
+2025-03-25 14:14:45,807 - HEALTH - Average Face Detection Confidence: 0.98
+2025-03-25 14:14:45,807 - INFO - Detected 1 faces.
+2025-03-25 14:14:45,807 - ERROR - Error processing face 1: torch.cat(): expected a non-empty list of Tensors
+2025-03-25 14:14:56,834 - HEALTH - System Health - CPU Usage: 3.8%, Memory Usage: 77.3%, Disk Usage: 35.3%
+2025-03-25 14:14:56,834 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:14:56,834 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:14:56,887 - HEALTH - Average Face Detection Confidence: 0.86
+2025-03-25 14:14:56,887 - INFO - Detected 1 faces.
+2025-03-25 14:14:56,953 - INFO - Recognition Result: Unknown (Distance: 1.2729)
+2025-03-25 14:14:57,070 - WARNING - Fake Face Detected: Unknown (Score: 0.54)
+2025-03-25 14:14:57,070 - INFO - Fake Face Detected: Unknown (Score: 0.54)
+2025-03-25 14:15:08,095 - HEALTH - System Health - CPU Usage: 3.8%, Memory Usage: 78.7%, Disk Usage: 35.3%
+2025-03-25 14:15:08,095 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:15:08,095 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.056s, Avg Anti-Spoofing Test Time: 0.113s
+2025-03-25 14:15:08,139 - HEALTH - Average Face Detection Confidence: 0.92
+2025-03-25 14:15:08,139 - INFO - Detected 1 faces.
+2025-03-25 14:15:08,140 - ERROR - Error processing face 1: torch.cat(): expected a non-empty list of Tensors
+2025-03-25 14:15:19,173 - HEALTH - System Health - CPU Usage: 2.5%, Memory Usage: 78.4%, Disk Usage: 35.3%
+2025-03-25 14:15:19,173 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:15:19,173 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:15:19,212 - HEALTH - Average Face Detection Confidence: 0.98
+2025-03-25 14:15:19,212 - INFO - Detected 1 faces.
+2025-03-25 14:15:19,213 - ERROR - Error processing face 1: torch.cat(): expected a non-empty list of Tensors
+2025-03-25 14:15:30,244 - HEALTH - System Health - CPU Usage: 8.7%, Memory Usage: 78.2%, Disk Usage: 35.3%
+2025-03-25 14:15:30,244 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:15:30,244 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:15:30,286 - HEALTH - Average Face Detection Confidence: 0.96
+2025-03-25 14:15:30,286 - INFO - Detected 1 faces.
+2025-03-25 14:15:30,349 - INFO - Recognition Result: Unknown (Distance: 1.2339)
+2025-03-25 14:15:30,454 - INFO - Real Face Detected: Unknown (Score: 0.99)
+2025-03-25 14:15:41,478 - HEALTH - System Health - CPU Usage: 6.8%, Memory Usage: 77.9%, Disk Usage: 35.3%
+2025-03-25 14:15:41,479 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:15:41,479 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.051s, Avg Anti-Spoofing Test Time: 0.099s
+2025-03-25 14:15:41,520 - HEALTH - Average Face Detection Confidence: 0.92
+2025-03-25 14:15:41,520 - INFO - Detected 2 faces.
+2025-03-25 14:15:41,523 - ERROR - Error processing face 1: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 14:15:41,589 - INFO - Recognition Result: Unknown (Distance: 1.2984)
+2025-03-25 14:15:41,711 - WARNING - Fake Face Detected: Unknown (Score: 0.54)
+2025-03-25 14:15:41,711 - INFO - Fake Face Detected: Unknown (Score: 0.54)
+2025-03-25 14:15:52,742 - HEALTH - System Health - CPU Usage: 2.5%, Memory Usage: 76.8%, Disk Usage: 35.3%
+2025-03-25 14:15:52,742 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:15:52,742 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.053s, Avg Anti-Spoofing Test Time: 0.118s
+2025-03-25 14:15:52,780 - HEALTH - Average Face Detection Confidence: 0.93
+2025-03-25 14:15:52,781 - INFO - Detected 1 faces.
+2025-03-25 14:15:52,781 - ERROR - Error processing face 1: torch.cat(): expected a non-empty list of Tensors
+2025-03-25 14:16:03,798 - HEALTH - System Health - CPU Usage: 2.7%, Memory Usage: 76.7%, Disk Usage: 35.3%
+2025-03-25 14:16:03,799 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:16:03,799 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:16:03,843 - HEALTH - Average Face Detection Confidence: 0.97
+2025-03-25 14:16:03,843 - INFO - Detected 1 faces.
+2025-03-25 14:16:03,844 - ERROR - Error processing face 1: torch.cat(): expected a non-empty list of Tensors
+2025-03-25 14:16:14,879 - HEALTH - System Health - CPU Usage: 3.7%, Memory Usage: 76.7%, Disk Usage: 35.3%
+2025-03-25 14:16:14,879 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:16:14,879 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:16:14,925 - HEALTH - Average Face Detection Confidence: 0.92
+2025-03-25 14:16:14,926 - INFO - Detected 1 faces.
+2025-03-25 14:16:14,991 - INFO - Recognition Result: Unknown (Distance: 1.2716)
+2025-03-25 14:16:15,108 - WARNING - Fake Face Detected: Unknown (Score: 0.54)
+2025-03-25 14:16:15,108 - INFO - Fake Face Detected: Unknown (Score: 0.54)
+2025-03-25 14:16:26,130 - HEALTH - System Health - CPU Usage: 3.9%, Memory Usage: 76.7%, Disk Usage: 35.3%
+2025-03-25 14:16:26,130 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:16:26,130 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.055s, Avg Anti-Spoofing Test Time: 0.112s
+2025-03-25 14:16:26,171 - HEALTH - Average Face Detection Confidence: 0.98
+2025-03-25 14:16:26,171 - INFO - Detected 1 faces.
+2025-03-25 14:16:26,171 - ERROR - Error processing face 1: torch.cat(): expected a non-empty list of Tensors
+2025-03-25 14:16:37,198 - HEALTH - System Health - CPU Usage: 3.5%, Memory Usage: 76.7%, Disk Usage: 35.3%
+2025-03-25 14:16:37,198 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:16:37,198 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:16:37,239 - HEALTH - Average Face Detection Confidence: 0.89
+2025-03-25 14:16:37,239 - INFO - Detected 1 faces.
+2025-03-25 14:16:37,239 - ERROR - Error processing face 1: torch.cat(): expected a non-empty list of Tensors
+2025-03-25 14:16:48,264 - HEALTH - System Health - CPU Usage: 2.4%, Memory Usage: 76.6%, Disk Usage: 35.3%
+2025-03-25 14:16:48,264 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:16:48,264 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:16:48,306 - HEALTH - Average Face Detection Confidence: 0.83
+2025-03-25 14:16:48,306 - INFO - Detected 1 faces.
+2025-03-25 14:16:48,369 - INFO - Recognition Result: Unknown (Distance: 1.3163)
+2025-03-25 14:16:48,479 - INFO - Real Face Detected: Unknown (Score: 0.97)
+2025-03-25 14:16:59,500 - HEALTH - System Health - CPU Usage: 3.0%, Memory Usage: 76.7%, Disk Usage: 35.3%
+2025-03-25 14:16:59,501 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:16:59,501 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.051s, Avg Anti-Spoofing Test Time: 0.105s
+2025-03-25 14:16:59,538 - HEALTH - Average Face Detection Confidence: 0.94
+2025-03-25 14:16:59,538 - INFO - Detected 1 faces.
+2025-03-25 14:16:59,595 - INFO - Recognition Result: Unknown (Distance: 1.3507)
+2025-03-25 14:16:59,709 - INFO - Real Face Detected: Unknown (Score: 0.99)
+2025-03-25 14:17:10,737 - HEALTH - System Health - CPU Usage: 3.8%, Memory Usage: 76.6%, Disk Usage: 35.3%
+2025-03-25 14:17:10,737 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:17:10,737 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.047s, Avg Anti-Spoofing Test Time: 0.109s
+2025-03-25 14:17:10,775 - HEALTH - Average Face Detection Confidence: 0.94
+2025-03-25 14:17:10,776 - INFO - Detected 1 faces.
+2025-03-25 14:17:10,837 - INFO - Recognition Result: Unknown (Distance: 1.3031)
+2025-03-25 14:17:10,943 - WARNING - Fake Face Detected: Unknown (Score: 0.54)
+2025-03-25 14:17:10,943 - INFO - Fake Face Detected: Unknown (Score: 0.54)
+2025-03-25 14:17:21,964 - HEALTH - System Health - CPU Usage: 3.2%, Memory Usage: 76.6%, Disk Usage: 35.3%
+2025-03-25 14:17:21,964 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:17:21,964 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.051s, Avg Anti-Spoofing Test Time: 0.101s
+2025-03-25 14:17:22,001 - HEALTH - Average Face Detection Confidence: 0.97
+2025-03-25 14:17:22,001 - INFO - Detected 1 faces.
+2025-03-25 14:17:22,002 - ERROR - Error processing face 1: torch.cat(): expected a non-empty list of Tensors
+2025-03-25 14:17:33,019 - HEALTH - System Health - CPU Usage: 6.2%, Memory Usage: 76.5%, Disk Usage: 35.3%
+2025-03-25 14:17:33,019 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:17:33,019 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:17:33,062 - HEALTH - Average Face Detection Confidence: 0.92
+2025-03-25 14:17:33,062 - INFO - Detected 1 faces.
+2025-03-25 14:17:33,128 - INFO - Recognition Result: Unknown (Distance: 1.2898)
+2025-03-25 14:17:33,239 - WARNING - Fake Face Detected: Unknown (Score: 0.54)
+2025-03-25 14:17:33,239 - INFO - Fake Face Detected: Unknown (Score: 0.54)
+2025-03-25 14:17:44,264 - HEALTH - System Health - CPU Usage: 3.6%, Memory Usage: 76.4%, Disk Usage: 35.3%
+2025-03-25 14:17:44,264 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:17:44,264 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.055s, Avg Anti-Spoofing Test Time: 0.106s
+2025-03-25 14:17:44,305 - HEALTH - Average Face Detection Confidence: 0.97
+2025-03-25 14:17:44,305 - INFO - Detected 1 faces.
+2025-03-25 14:17:44,306 - ERROR - Error processing face 1: torch.cat(): expected a non-empty list of Tensors
+2025-03-25 14:17:55,332 - HEALTH - System Health - CPU Usage: 3.5%, Memory Usage: 76.6%, Disk Usage: 35.3%
+2025-03-25 14:17:55,332 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:17:55,332 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:17:55,406 - HEALTH - Average Face Detection Confidence: 0.86
+2025-03-25 14:17:55,406 - INFO - Detected 3 faces.
+2025-03-25 14:17:55,503 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5459)
+2025-03-25 14:17:55,660 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:17:55,664 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 14:17:55,728 - INFO - Recognition Result: Unknown (Distance: 1.3303)
+2025-03-25 14:17:55,846 - INFO - Real Face Detected: Unknown (Score: 1.00)
+2025-03-25 14:18:06,946 - HEALTH - System Health - CPU Usage: 8.5%, Memory Usage: 76.8%, Disk Usage: 35.3%
+2025-03-25 14:18:06,947 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:18:06,947 - HEALTH - AI Metrics - Faces Processed: 2, Avg Face Embedding Inference Time: 0.069s, Avg Anti-Spoofing Test Time: 0.132s
+2025-03-25 14:18:07,025 - HEALTH - Average Face Detection Confidence: 0.99
+2025-03-25 14:18:07,025 - INFO - Detected 2 faces.
+2025-03-25 14:18:07,109 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5593)
+2025-03-25 14:18:07,236 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:18:07,310 - INFO - Recognition Result: Unknown (Distance: 1.2913)
+2025-03-25 14:18:07,442 - INFO - Real Face Detected: Unknown (Score: 1.00)
+2025-03-25 14:30:10,784 - INFO - Started face recognition process.
+2025-03-25 14:30:12,091 - ERROR - Error: Could not read frame.
+2025-03-25 14:30:17,100 - ERROR - Error: Could not read frame.
+2025-03-25 14:30:22,101 - ERROR - Error: Could not read frame.
+2025-03-25 14:30:27,104 - ERROR - Error: Could not read frame.
+2025-03-25 14:30:32,120 - ERROR - Error: Could not read frame.
+2025-03-25 14:30:37,125 - ERROR - Error: Could not read frame.
+2025-03-25 14:30:42,129 - ERROR - Error: Could not read frame.
+2025-03-25 14:30:47,144 - ERROR - Error: Could not read frame.
+2025-03-25 14:30:52,160 - ERROR - Error: Could not read frame.
+2025-03-25 14:30:57,170 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:02,173 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:04,954 - INFO - Started face recognition process.
+2025-03-25 14:31:06,229 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:07,173 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:11,236 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:12,187 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:16,238 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:17,196 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:21,248 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:22,199 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:26,253 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:27,052 - INFO - Started face recognition process.
+2025-03-25 14:31:27,204 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:28,388 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:31,269 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:32,217 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:33,398 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:36,283 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:37,229 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:38,410 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:41,296 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:42,232 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:43,415 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:46,301 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:47,235 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:48,424 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:51,314 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:52,244 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:53,439 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:56,316 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:57,246 - ERROR - Error: Could not read frame.
+2025-03-25 14:31:58,445 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:01,329 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:02,260 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:03,446 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:06,333 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:07,262 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:08,458 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:11,347 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:12,267 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:13,460 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:16,355 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:17,276 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:18,461 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:21,357 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:22,283 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:23,464 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:26,371 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:27,286 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:28,473 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:31,372 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:32,287 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:33,485 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:36,377 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:37,297 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:38,496 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:41,388 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:42,307 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:43,505 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:46,395 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:47,316 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:48,509 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:51,409 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:52,327 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:53,524 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:56,421 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:57,343 - ERROR - Error: Could not read frame.
+2025-03-25 14:32:58,538 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:01,433 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:02,350 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:03,541 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:05,522 - INFO - Started face recognition process.
+2025-03-25 14:33:06,442 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:06,842 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:07,356 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:08,552 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:11,448 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:11,852 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:12,362 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:13,562 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:16,456 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:16,860 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:17,373 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:18,563 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:21,466 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:21,870 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:22,384 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:23,570 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:26,475 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:26,880 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:27,389 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:28,577 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:31,483 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:31,887 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:32,402 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:33,592 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:36,497 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:36,902 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:37,415 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:38,597 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:41,500 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:41,905 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:42,419 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:43,604 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:46,510 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:46,915 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:47,433 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:48,616 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:51,512 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:51,917 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:52,445 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:53,626 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:56,518 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:56,923 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:57,452 - ERROR - Error: Could not read frame.
+2025-03-25 14:33:58,633 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:01,523 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:01,927 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:02,455 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:03,639 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:06,532 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:06,935 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:07,465 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:08,647 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:11,532 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:11,936 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:12,469 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:13,656 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:16,546 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:16,949 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:17,479 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:18,664 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:21,550 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:21,958 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:22,489 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:23,672 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:26,553 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:26,970 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:27,502 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:28,676 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:31,557 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:31,977 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:32,508 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:33,685 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:36,566 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:36,986 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:37,517 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:38,698 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:41,568 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:41,991 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:42,518 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:43,699 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:46,583 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:47,005 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:47,523 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:47,639 - INFO - Started face recognition process.
+2025-03-25 14:34:48,709 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:49,291 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:34:49,291 - INFO - Detected 1 faces.
+2025-03-25 14:34:49,389 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6501)
+2025-03-25 14:34:49,527 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:34:49,532 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:34:51,585 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:52,019 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:52,533 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:53,716 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:54,547 - DEBUG - Attempt 1: Unable to reach ESP32 Retrying...
+2025-03-25 14:34:56,592 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:57,028 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:57,545 - ERROR - Error: Could not read frame.
+2025-03-25 14:34:57,561 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:34:58,720 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:01,605 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:02,042 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:02,556 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:02,571 - DEBUG - Attempt 2: Unable to reach ESP32 Retrying...
+2025-03-25 14:35:03,730 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:05,573 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:35:06,617 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:07,052 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:07,565 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:08,733 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:10,577 - DEBUG - Attempt 3: Unable to reach ESP32 Retrying...
+2025-03-25 14:35:11,620 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:12,054 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:12,566 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:13,592 - DEBUG - ESP32 not available after 3 attempts. Future ESP32 communication are Disabled automatically
+2025-03-25 14:35:13,747 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:16,627 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:17,061 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:17,576 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:18,752 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:21,642 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:22,064 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:22,578 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:23,759 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:24,678 - HEALTH - System Health - CPU Usage: 16.8%, Memory Usage: 83.1%, Disk Usage: 35.3%
+2025-03-25 14:35:24,678 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:35:24,679 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.083s, Avg Anti-Spoofing Test Time: 0.133s
+2025-03-25 14:35:24,754 - HEALTH - Average Face Detection Confidence: 0.97
+2025-03-25 14:35:24,755 - INFO - Detected 2 faces.
+2025-03-25 14:35:24,847 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6858)
+2025-03-25 14:35:24,976 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:35:24,979 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 14:35:26,644 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:27,074 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:27,589 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:28,760 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:31,648 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:32,084 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:32,597 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:33,764 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:36,015 - HEALTH - System Health - CPU Usage: 4.7%, Memory Usage: 83.0%, Disk Usage: 35.3%
+2025-03-25 14:35:36,015 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:35:36,015 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.078s, Avg Anti-Spoofing Test Time: 0.123s
+2025-03-25 14:35:36,096 - HEALTH - Average Face Detection Confidence: 0.95
+2025-03-25 14:35:36,096 - INFO - Detected 2 faces.
+2025-03-25 14:35:36,192 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6519)
+2025-03-25 14:35:36,306 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:35:36,309 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 14:35:36,661 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:37,097 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:37,598 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:38,768 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:41,665 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:42,101 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:42,612 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:43,772 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:46,669 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:47,104 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:47,391 - HEALTH - System Health - CPU Usage: 6.0%, Memory Usage: 83.3%, Disk Usage: 35.3%
+2025-03-25 14:35:47,391 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:35:47,391 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.086s, Avg Anti-Spoofing Test Time: 0.109s
+2025-03-25 14:35:47,462 - HEALTH - Average Face Detection Confidence: 0.92
+2025-03-25 14:35:47,462 - INFO - Detected 2 faces.
+2025-03-25 14:35:47,550 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5975)
+2025-03-25 14:35:47,613 - ERROR - Error: Could not read frame.
+2025-03-25 14:35:47,672 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:35:47,696 - INFO - Gracefully stopping the face recognition process...
+2025-03-25 14:36:01,529 - INFO - Started face recognition process.
+2025-03-25 14:36:02,845 - ERROR - Error: Could not read frame.
+2025-03-25 14:36:07,857 - ERROR - Error: Could not read frame.
+2025-03-25 14:36:12,860 - ERROR - Error: Could not read frame.
+2025-03-25 14:36:17,861 - ERROR - Error: Could not read frame.
+2025-03-25 14:36:22,873 - ERROR - Error: Could not read frame.
+2025-03-25 14:36:27,884 - ERROR - Error: Could not read frame.
+2025-03-25 14:36:32,893 - ERROR - Error: Could not read frame.
+2025-03-25 14:36:37,901 - ERROR - Error: Could not read frame.
+2025-03-25 14:36:42,912 - ERROR - Error: Could not read frame.
+2025-03-25 14:36:47,923 - ERROR - Error: Could not read frame.
+2025-03-25 14:36:52,935 - ERROR - Error: Could not read frame.
+2025-03-25 14:36:57,940 - ERROR - Error: Could not read frame.
+2025-03-25 14:37:02,942 - ERROR - Error: Could not read frame.
+2025-03-25 14:37:07,945 - ERROR - Error: Could not read frame.
+2025-03-25 14:37:12,957 - ERROR - Error: Could not read frame.
+2025-03-25 14:37:17,961 - ERROR - Error: Could not read frame.
+2025-03-25 14:37:22,974 - ERROR - Error: Could not read frame.
+2025-03-25 14:37:24,072 - INFO - Started face recognition process.
+2025-03-25 14:37:25,452 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 14:37:25,457 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:37:27,975 - ERROR - Error: Could not read frame.
+2025-03-25 14:37:30,457 - DEBUG - Attempt 1: Unable to reach ESP32 Retrying...
+2025-03-25 14:37:32,977 - ERROR - Error: Could not read frame.
+2025-03-25 14:37:33,459 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:37:37,986 - ERROR - Error: Could not read frame.
+2025-03-25 14:37:38,460 - DEBUG - Attempt 2: Unable to reach ESP32 Retrying...
+2025-03-25 14:37:41,461 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:37:42,993 - ERROR - Error: Could not read frame.
+2025-03-25 14:37:46,463 - DEBUG - Attempt 3: Unable to reach ESP32 Retrying...
+2025-03-25 14:37:48,007 - ERROR - Error: Could not read frame.
+2025-03-25 14:37:49,463 - DEBUG - ESP32 not available after 3 attempts. Future ESP32 communication are Disabled automatically
+2025-03-25 14:37:53,021 - ERROR - Error: Could not read frame.
+2025-03-25 14:37:56,468 - HEALTH - System Health - CPU Usage: 10.7%, Memory Usage: 78.1%, Disk Usage: 35.3%
+2025-03-25 14:37:56,468 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:37:56,468 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:37:56,496 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 14:37:58,033 - ERROR - Error: Could not read frame.
+2025-03-25 14:38:02,522 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 14:38:03,039 - ERROR - Error: Could not read frame.
+2025-03-25 14:38:08,053 - ERROR - Error: Could not read frame.
+2025-03-25 14:38:09,527 - HEALTH - System Health - CPU Usage: 3.0%, Memory Usage: 78.0%, Disk Usage: 35.3%
+2025-03-25 14:38:09,527 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:38:09,527 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:38:09,574 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 14:38:13,056 - ERROR - Error: Could not read frame.
+2025-03-25 14:38:15,618 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 14:38:18,057 - ERROR - Error: Could not read frame.
+2025-03-25 14:38:22,625 - HEALTH - System Health - CPU Usage: 8.2%, Memory Usage: 78.2%, Disk Usage: 35.3%
+2025-03-25 14:38:22,625 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:38:22,625 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:38:22,668 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 14:38:23,068 - ERROR - Error: Could not read frame.
+2025-03-25 14:38:27,458 - INFO - Gracefully stopping the face recognition process...
+2025-03-25 14:38:40,025 - INFO - Started face recognition process.
+2025-03-25 14:39:08,049 - INFO - Started face recognition process.
+2025-03-25 14:39:09,254 - ERROR - Error: Could not read frame.
+2025-03-25 14:39:14,266 - ERROR - Error: Could not read frame.
+2025-03-25 14:39:19,272 - ERROR - Error: Could not read frame.
+2025-03-25 14:39:24,282 - ERROR - Error: Could not read frame.
+2025-03-25 14:39:29,294 - ERROR - Error: Could not read frame.
+2025-03-25 14:39:34,304 - ERROR - Error: Could not read frame.
+2025-03-25 14:39:39,314 - ERROR - Error: Could not read frame.
+2025-03-25 14:39:44,326 - ERROR - Error: Could not read frame.
+2025-03-25 14:39:49,330 - ERROR - Error: Could not read frame.
+2025-03-25 14:39:54,333 - ERROR - Error: Could not read frame.
+2025-03-25 14:39:59,338 - ERROR - Error: Could not read frame.
+2025-03-25 14:40:04,354 - ERROR - Error: Could not read frame.
+2025-03-25 14:40:09,365 - ERROR - Error: Could not read frame.
+2025-03-25 14:40:14,374 - ERROR - Error: Could not read frame.
+2025-03-25 14:40:19,379 - ERROR - Error: Could not read frame.
+2025-03-25 14:40:24,394 - ERROR - Error: Could not read frame.
+2025-03-25 14:40:29,397 - ERROR - Error: Could not read frame.
+2025-03-25 14:40:34,400 - ERROR - Error: Could not read frame.
+2025-03-25 14:40:39,408 - ERROR - Error: Could not read frame.
+2025-03-25 14:40:44,418 - ERROR - Error: Could not read frame.
+2025-03-25 14:40:49,423 - ERROR - Error: Could not read frame.
+2025-03-25 14:40:54,425 - ERROR - Error: Could not read frame.
+2025-03-25 14:40:59,428 - ERROR - Error: Could not read frame.
+2025-03-25 14:41:04,442 - ERROR - Error: Could not read frame.
+2025-03-25 14:41:06,120 - INFO - Gracefully stopping the face recognition process...
+2025-03-25 14:41:17,612 - INFO - Started face recognition process.
+2025-03-25 14:41:19,420 - HEALTH - Average Face Detection Confidence: 0.92
+2025-03-25 14:41:19,420 - INFO - Detected 2 faces.
+2025-03-25 14:41:19,515 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6796)
+2025-03-25 14:41:19,635 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:41:19,638 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:41:24,649 - DEBUG - Attempt 1: Unable to reach ESP32 Retrying...
+2025-03-25 14:41:27,660 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:41:32,662 - DEBUG - Attempt 2: Unable to reach ESP32 Retrying...
+2025-03-25 14:41:35,665 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:41:40,679 - DEBUG - Attempt 3: Unable to reach ESP32 Retrying...
+2025-03-25 14:41:42,786 - INFO - Gracefully stopping the face recognition process...
+2025-03-25 14:44:42,620 - INFO - Started face recognition process.
+2025-03-25 14:44:43,846 - ERROR - Error: Could not read frame.
+2025-03-25 14:44:48,856 - ERROR - Error: Could not read frame.
+2025-03-25 14:44:53,863 - ERROR - Error: Could not read frame.
+2025-03-25 14:44:58,869 - ERROR - Error: Could not read frame.
+2025-03-25 14:45:03,871 - ERROR - Error: Could not read frame.
+2025-03-25 14:45:08,883 - ERROR - Error: Could not read frame.
+2025-03-25 14:45:13,884 - ERROR - Error: Could not read frame.
+2025-03-25 14:45:18,890 - ERROR - Error: Could not read frame.
+2025-03-25 14:45:23,900 - ERROR - Error: Could not read frame.
+2025-03-25 14:45:28,913 - ERROR - Error: Could not read frame.
+2025-03-25 14:45:33,916 - ERROR - Error: Could not read frame.
+2025-03-25 14:45:38,925 - ERROR - Error: Could not read frame.
+2025-03-25 14:45:43,938 - ERROR - Error: Could not read frame.
+2025-03-25 14:45:48,943 - ERROR - Error: Could not read frame.
+2025-03-25 14:45:53,945 - ERROR - Error: Could not read frame.
+2025-03-25 14:45:58,949 - ERROR - Error: Could not read frame.
+2025-03-25 14:46:03,956 - ERROR - Error: Could not read frame.
+2025-03-25 14:46:08,970 - ERROR - Error: Could not read frame.
+2025-03-25 14:46:13,981 - ERROR - Error: Could not read frame.
+2025-03-25 14:46:18,985 - ERROR - Error: Could not read frame.
+2025-03-25 14:46:23,998 - ERROR - Error: Could not read frame.
+2025-03-25 14:46:29,005 - ERROR - Error: Could not read frame.
+2025-03-25 14:46:34,009 - ERROR - Error: Could not read frame.
+2025-03-25 14:46:39,022 - ERROR - Error: Could not read frame.
+2025-03-25 14:46:44,024 - ERROR - Error: Could not read frame.
+2025-03-25 14:46:49,033 - ERROR - Error: Could not read frame.
+2025-03-25 14:46:54,040 - ERROR - Error: Could not read frame.
+2025-03-25 14:46:59,046 - ERROR - Error: Could not read frame.
+2025-03-25 14:47:04,058 - ERROR - Error: Could not read frame.
+2025-03-25 14:47:09,059 - ERROR - Error: Could not read frame.
+2025-03-25 14:47:14,060 - ERROR - Error: Could not read frame.
+2025-03-25 14:48:10,394 - INFO - Started face recognition process.
+2025-03-25 14:48:12,388 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:48:12,388 - INFO - Detected 1 faces.
+2025-03-25 14:48:12,495 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5757)
+2025-03-25 14:48:12,629 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:48:12,633 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:48:17,643 - DEBUG - Attempt 1: Unable to reach ESP32 Retrying...
+2025-03-25 14:48:20,645 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:48:25,650 - DEBUG - Attempt 2: Unable to reach ESP32 Retrying...
+2025-03-25 14:48:28,652 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:48:33,660 - DEBUG - Attempt 3: Unable to reach ESP32 Retrying...
+2025-03-25 14:48:36,668 - DEBUG - ESP32 not available after 3 attempts. Future ESP32 communication are Disabled automatically
+2025-03-25 14:48:47,834 - HEALTH - System Health - CPU Usage: 9.0%, Memory Usage: 75.3%, Disk Usage: 35.3%
+2025-03-25 14:48:47,834 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:48:47,834 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.094s, Avg Anti-Spoofing Test Time: 0.128s
+2025-03-25 14:48:47,909 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:48:47,909 - INFO - Detected 1 faces.
+2025-03-25 14:48:47,999 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5833)
+2025-03-25 14:48:48,118 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:48:59,167 - HEALTH - System Health - CPU Usage: 6.2%, Memory Usage: 75.1%, Disk Usage: 35.3%
+2025-03-25 14:48:59,167 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:48:59,167 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.078s, Avg Anti-Spoofing Test Time: 0.114s
+2025-03-25 14:48:59,241 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:48:59,241 - INFO - Detected 1 faces.
+2025-03-25 14:48:59,328 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7019)
+2025-03-25 14:48:59,439 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:49:10,489 - HEALTH - System Health - CPU Usage: 10.6%, Memory Usage: 75.4%, Disk Usage: 35.3%
+2025-03-25 14:49:10,489 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:49:10,489 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.074s, Avg Anti-Spoofing Test Time: 0.104s
+2025-03-25 14:49:10,575 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:49:10,575 - INFO - Detected 1 faces.
+2025-03-25 14:49:10,668 - INFO - Recognition Result: ahsan latif_7838220 (Distance: 0.7186)
+2025-03-25 14:49:10,796 - INFO - Real Face Detected: ahsan latif_7838220 (Score: 1.00)
+2025-03-25 14:49:25,338 - HEALTH - System Health - CPU Usage: 4.3%, Memory Usage: 75.6%, Disk Usage: 35.3%
+2025-03-25 14:49:25,339 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:49:25,339 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.079s, Avg Anti-Spoofing Test Time: 0.123s
+2025-03-25 14:49:25,422 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:49:25,422 - INFO - Detected 1 faces.
+2025-03-25 14:49:25,515 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6017)
+2025-03-25 14:49:25,638 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:49:36,692 - HEALTH - System Health - CPU Usage: 6.8%, Memory Usage: 75.4%, Disk Usage: 35.3%
+2025-03-25 14:49:36,692 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:49:36,692 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.080s, Avg Anti-Spoofing Test Time: 0.116s
+2025-03-25 14:49:36,770 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:49:36,770 - INFO - Detected 1 faces.
+2025-03-25 14:49:36,885 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6779)
+2025-03-25 14:49:37,059 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:49:58,044 - INFO - Started face recognition process.
+2025-03-25 14:49:59,921 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 14:49:59,925 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:50:04,940 - DEBUG - Attempt 1: Unable to reach ESP32 Retrying...
+2025-03-25 14:50:07,942 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:50:12,953 - DEBUG - Attempt 2: Unable to reach ESP32 Retrying...
+2025-03-25 14:50:15,968 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 14:50:20,975 - DEBUG - Attempt 3: Unable to reach ESP32 Retrying...
+2025-03-25 14:50:23,986 - DEBUG - ESP32 not available after 3 attempts. Future ESP32 communication are Disabled automatically
+2025-03-25 14:50:30,015 - HEALTH - System Health - CPU Usage: 4.7%, Memory Usage: 75.3%, Disk Usage: 35.3%
+2025-03-25 14:50:30,015 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:50:30,015 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:50:30,080 - HEALTH - Average Face Detection Confidence: 0.83
+2025-03-25 14:50:30,080 - INFO - Detected 2 faces.
+2025-03-25 14:50:30,094 - ERROR - Error processing face 1: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 14:50:30,096 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 14:50:41,125 - HEALTH - System Health - CPU Usage: 5.2%, Memory Usage: 75.3%, Disk Usage: 35.3%
+2025-03-25 14:50:41,125 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:50:41,125 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-25 14:50:41,197 - HEALTH - Average Face Detection Confidence: 0.89
+2025-03-25 14:50:41,197 - INFO - Detected 2 faces.
+2025-03-25 14:50:41,288 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6912)
+2025-03-25 14:50:41,419 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 14:50:41,423 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 14:50:52,455 - HEALTH - System Health - CPU Usage: 8.5%, Memory Usage: 75.6%, Disk Usage: 35.3%
+2025-03-25 14:50:52,455 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:50:52,455 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.079s, Avg Anti-Spoofing Test Time: 0.126s
+2025-03-25 14:50:52,532 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:50:52,532 - INFO - Detected 1 faces.
+2025-03-25 14:50:52,614 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7624)
+2025-03-25 14:50:52,754 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.99)
+2025-03-25 14:51:03,793 - HEALTH - System Health - CPU Usage: 4.9%, Memory Usage: 75.8%, Disk Usage: 35.3%
+2025-03-25 14:51:03,794 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:51:03,794 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.071s, Avg Anti-Spoofing Test Time: 0.134s
+2025-03-25 14:51:03,860 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:51:03,860 - INFO - Detected 1 faces.
+2025-03-25 14:51:03,947 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7730)
+2025-03-25 14:51:04,062 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.92)
+2025-03-25 14:51:15,080 - HEALTH - System Health - CPU Usage: 6.9%, Memory Usage: 76.0%, Disk Usage: 35.3%
+2025-03-25 14:51:15,080 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 14:51:15,080 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.077s, Avg Anti-Spoofing Test Time: 0.110s
+2025-03-25 14:51:15,147 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 14:51:15,147 - INFO - Detected 1 faces.
+2025-03-25 14:51:15,231 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.7359)
+2025-03-25 14:51:15,350 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:04:59,213 - INFO - Started face recognition process.
+2025-03-25 15:05:01,162 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:05:01,162 - INFO - Detected 1 faces.
+2025-03-25 15:05:01,252 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6290)
+2025-03-25 15:05:01,382 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:05:01,385 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:05:06,389 - DEBUG - Attempt 1: Unable to reach ESP32 Retrying...
+2025-03-25 15:05:09,393 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:05:14,406 - DEBUG - Attempt 2: Unable to reach ESP32 Retrying...
+2025-03-25 15:05:17,414 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:05:22,422 - DEBUG - Attempt 3: Unable to reach ESP32 Retrying...
+2025-03-25 15:05:25,431 - DEBUG - ESP32 not available after 3 attempts. Future ESP32 communication are Disabled automatically
+2025-03-25 15:05:36,513 - HEALTH - System Health - CPU Usage: 2.6%, Memory Usage: 74.7%, Disk Usage: 35.3%
+2025-03-25 15:05:36,513 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:05:36,513 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.078s, Avg Anti-Spoofing Test Time: 0.124s
+2025-03-25 15:05:36,589 - HEALTH - Average Face Detection Confidence: 0.88
+2025-03-25 15:05:36,589 - INFO - Detected 2 faces.
+2025-03-25 15:05:36,683 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5815)
+2025-03-25 15:05:36,814 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.99)
+2025-03-25 15:05:36,817 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 15:05:47,918 - HEALTH - System Health - CPU Usage: 4.2%, Memory Usage: 74.8%, Disk Usage: 35.3%
+2025-03-25 15:05:47,918 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:05:47,918 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.079s, Avg Anti-Spoofing Test Time: 0.125s
+2025-03-25 15:05:47,992 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:05:47,992 - INFO - Detected 1 faces.
+2025-03-25 15:05:48,072 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5459)
+2025-03-25 15:05:48,203 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:05:59,293 - HEALTH - System Health - CPU Usage: 15.3%, Memory Usage: 74.6%, Disk Usage: 35.3%
+2025-03-25 15:05:59,293 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:05:59,293 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.069s, Avg Anti-Spoofing Test Time: 0.125s
+2025-03-25 15:05:59,375 - HEALTH - Average Face Detection Confidence: 0.99
+2025-03-25 15:05:59,375 - INFO - Detected 1 faces.
+2025-03-25 15:05:59,478 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6343)
+2025-03-25 15:05:59,613 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:08:33,925 - INFO - Started face recognition process.
+2025-03-25 15:08:36,596 - ERROR - Error: Could not read frame.
+2025-03-25 15:08:41,612 - ERROR - Error: Could not read frame.
+2025-03-25 15:08:46,622 - ERROR - Error: Could not read frame.
+2025-03-25 15:08:51,627 - ERROR - Error: Could not read frame.
+2025-03-25 15:08:56,638 - ERROR - Error: Could not read frame.
+2025-03-25 15:09:01,649 - ERROR - Error: Could not read frame.
+2025-03-25 15:09:06,660 - ERROR - Error: Could not read frame.
+2025-03-25 15:09:11,664 - ERROR - Error: Could not read frame.
+2025-03-25 15:09:16,666 - ERROR - Error: Could not read frame.
+2025-03-25 15:09:21,673 - ERROR - Error: Could not read frame.
+2025-03-25 15:09:26,676 - ERROR - Error: Could not read frame.
+2025-03-25 15:09:31,680 - ERROR - Error: Could not read frame.
+2025-03-25 15:09:36,690 - ERROR - Error: Could not read frame.
+2025-03-25 15:09:41,705 - ERROR - Error: Could not read frame.
+2025-03-25 15:09:46,713 - ERROR - Error: Could not read frame.
+2025-03-25 15:09:51,726 - ERROR - Error: Could not read frame.
+2025-03-25 15:09:56,740 - ERROR - Error: Could not read frame.
+2025-03-25 15:10:01,748 - ERROR - Error: Could not read frame.
+2025-03-25 15:10:06,763 - ERROR - Error: Could not read frame.
+2025-03-25 15:10:11,768 - ERROR - Error: Could not read frame.
+2025-03-25 15:10:16,775 - ERROR - Error: Could not read frame.
+2025-03-25 15:10:21,778 - ERROR - Error: Could not read frame.
+2025-03-25 15:10:26,787 - ERROR - Error: Could not read frame.
+2025-03-25 15:10:31,794 - ERROR - Error: Could not read frame.
+2025-03-25 15:10:36,798 - ERROR - Error: Could not read frame.
+2025-03-25 15:10:41,805 - ERROR - Error: Could not read frame.
+2025-03-25 15:10:46,809 - ERROR - Error: Could not read frame.
+2025-03-25 15:10:51,819 - ERROR - Error: Could not read frame.
+2025-03-25 15:10:56,830 - ERROR - Error: Could not read frame.
+2025-03-25 15:11:01,837 - ERROR - Error: Could not read frame.
+2025-03-25 15:11:06,845 - ERROR - Error: Could not read frame.
+2025-03-25 15:11:11,850 - ERROR - Error: Could not read frame.
+2025-03-25 15:11:16,853 - ERROR - Error: Could not read frame.
+2025-03-25 15:11:21,862 - ERROR - Error: Could not read frame.
+2025-03-25 15:11:26,862 - ERROR - Error: Could not read frame.
+2025-03-25 15:11:31,864 - ERROR - Error: Could not read frame.
+2025-03-25 15:11:36,868 - ERROR - Error: Could not read frame.
+2025-03-25 15:11:41,876 - ERROR - Error: Could not read frame.
+2025-03-25 15:11:46,884 - ERROR - Error: Could not read frame.
+2025-03-25 15:11:51,893 - ERROR - Error: Could not read frame.
+2025-03-25 15:11:56,897 - ERROR - Error: Could not read frame.
+2025-03-25 15:12:01,903 - ERROR - Error: Could not read frame.
+2025-03-25 15:12:06,906 - ERROR - Error: Could not read frame.
+2025-03-25 15:12:11,918 - ERROR - Error: Could not read frame.
+2025-03-25 15:12:16,921 - ERROR - Error: Could not read frame.
+2025-03-25 15:12:21,933 - ERROR - Error: Could not read frame.
+2025-03-25 15:12:26,935 - ERROR - Error: Could not read frame.
+2025-03-25 15:12:31,948 - ERROR - Error: Could not read frame.
+2025-03-25 15:12:36,948 - ERROR - Error: Could not read frame.
+2025-03-25 15:12:41,964 - ERROR - Error: Could not read frame.
+2025-03-25 15:12:46,966 - ERROR - Error: Could not read frame.
+2025-03-25 15:12:51,972 - ERROR - Error: Could not read frame.
+2025-03-25 15:12:56,986 - ERROR - Error: Could not read frame.
+2025-03-25 15:13:01,992 - ERROR - Error: Could not read frame.
+2025-03-25 15:13:06,997 - ERROR - Error: Could not read frame.
+2025-03-25 15:13:12,002 - ERROR - Error: Could not read frame.
+2025-03-25 15:13:17,010 - ERROR - Error: Could not read frame.
+2025-03-25 15:13:22,026 - ERROR - Error: Could not read frame.
+2025-03-25 15:13:27,039 - ERROR - Error: Could not read frame.
+2025-03-25 15:13:28,764 - INFO - Gracefully stopping the face recognition process...
+2025-03-25 15:13:37,351 - INFO - Started face recognition process.
+2025-03-25 15:13:41,473 - HEALTH - Average Face Detection Confidence: 0.86
+2025-03-25 15:13:41,473 - INFO - Detected 2 faces.
+2025-03-25 15:13:41,566 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6533)
+2025-03-25 15:13:41,691 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.93)
+2025-03-25 15:13:41,699 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:13:46,700 - DEBUG - Attempt 1: Unable to reach ESP32 Retrying...
+2025-03-25 15:13:49,701 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:13:54,717 - DEBUG - Attempt 2: Unable to reach ESP32 Retrying...
+2025-03-25 15:13:57,727 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:14:02,740 - DEBUG - Attempt 3: Unable to reach ESP32 Retrying...
+2025-03-25 15:14:05,741 - DEBUG - ESP32 not available after 3 attempts. Future ESP32 communication are Disabled automatically
+2025-03-25 15:14:05,743 - ERROR - Error processing face 2: 'NoneType' object has no attribute 'unsqueeze'
+2025-03-25 15:14:16,756 - HEALTH - System Health - CPU Usage: 9.6%, Memory Usage: 74.5%, Disk Usage: 35.3%
+2025-03-25 15:14:16,756 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:14:16,756 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.081s, Avg Anti-Spoofing Test Time: 0.120s
+2025-03-25 15:14:16,822 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:14:16,822 - INFO - Detected 1 faces.
+2025-03-25 15:14:16,900 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6113)
+2025-03-25 15:14:17,010 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 0.99)
+2025-03-25 15:14:28,023 - HEALTH - System Health - CPU Usage: 12.5%, Memory Usage: 74.8%, Disk Usage: 35.3%
+2025-03-25 15:14:28,023 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:14:28,023 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.068s, Avg Anti-Spoofing Test Time: 0.104s
+2025-03-25 15:14:28,099 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:14:28,100 - INFO - Detected 1 faces.
+2025-03-25 15:14:28,186 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5768)
+2025-03-25 15:14:28,477 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:14:39,553 - HEALTH - System Health - CPU Usage: 15.7%, Memory Usage: 74.9%, Disk Usage: 35.3%
+2025-03-25 15:14:39,553 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:14:39,553 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.075s, Avg Anti-Spoofing Test Time: 0.118s
+2025-03-25 15:14:39,633 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:14:39,633 - INFO - Detected 1 faces.
+2025-03-25 15:14:39,734 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5762)
+2025-03-25 15:14:39,873 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:14:42,913 - INFO - Started face recognition process.
+2025-03-25 15:14:44,733 - HEALTH - Average Face Detection Confidence: 0.99
+2025-03-25 15:14:44,734 - INFO - Detected 1 faces.
+2025-03-25 15:14:44,827 - INFO - Recognition Result: Unknown (Distance: 0.9280)
+2025-03-25 15:14:44,964 - INFO - Real Face Detected: Unknown (Score: 0.99)
+2025-03-25 15:14:44,967 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:14:49,982 - DEBUG - Attempt 1: Unable to reach ESP32 Retrying...
+2025-03-25 15:14:52,985 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:14:58,000 - DEBUG - Attempt 2: Unable to reach ESP32 Retrying...
+2025-03-25 15:15:01,006 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:15:06,011 - DEBUG - Attempt 3: Unable to reach ESP32 Retrying...
+2025-03-25 15:15:09,015 - DEBUG - ESP32 not available after 3 attempts. Future ESP32 communication are Disabled automatically
+2025-03-25 15:15:20,098 - HEALTH - System Health - CPU Usage: 10.5%, Memory Usage: 76.4%, Disk Usage: 35.3%
+2025-03-25 15:15:20,098 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:15:20,098 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.082s, Avg Anti-Spoofing Test Time: 0.131s
+2025-03-25 15:15:20,173 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:15:20,173 - INFO - Detected 1 faces.
+2025-03-25 15:15:20,260 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6750)
+2025-03-25 15:15:20,389 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:15:31,472 - HEALTH - System Health - CPU Usage: 3.7%, Memory Usage: 76.4%, Disk Usage: 35.3%
+2025-03-25 15:15:31,472 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:15:31,472 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.073s, Avg Anti-Spoofing Test Time: 0.123s
+2025-03-25 15:15:31,541 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:15:31,541 - INFO - Detected 1 faces.
+2025-03-25 15:15:31,631 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6191)
+2025-03-25 15:15:31,756 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:15:42,839 - HEALTH - System Health - CPU Usage: 8.1%, Memory Usage: 75.4%, Disk Usage: 35.3%
+2025-03-25 15:15:42,840 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:15:42,840 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.079s, Avg Anti-Spoofing Test Time: 0.118s
+2025-03-25 15:15:42,909 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:15:42,909 - INFO - Detected 1 faces.
+2025-03-25 15:15:42,997 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6069)
+2025-03-25 15:15:43,124 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:15:54,213 - HEALTH - System Health - CPU Usage: 6.5%, Memory Usage: 75.5%, Disk Usage: 35.3%
+2025-03-25 15:15:54,213 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:15:54,213 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.075s, Avg Anti-Spoofing Test Time: 0.122s
+2025-03-25 15:15:54,265 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-25 15:15:59,420 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:15:59,420 - INFO - Detected 1 faces.
+2025-03-25 15:15:59,501 - INFO - Recognition Result: Unknown (Distance: 1.0537)
+2025-03-25 15:15:59,626 - INFO - Real Face Detected: Unknown (Score: 1.00)
+2025-03-25 15:16:10,708 - HEALTH - System Health - CPU Usage: 7.7%, Memory Usage: 75.6%, Disk Usage: 35.3%
+2025-03-25 15:16:10,708 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:16:10,708 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.067s, Avg Anti-Spoofing Test Time: 0.119s
+2025-03-25 15:16:10,793 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:16:10,793 - INFO - Detected 1 faces.
+2025-03-25 15:16:10,892 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5100)
+2025-03-25 15:16:11,024 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:16:22,044 - HEALTH - System Health - CPU Usage: 4.3%, Memory Usage: 75.7%, Disk Usage: 35.3%
+2025-03-25 15:16:22,044 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:16:22,044 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.085s, Avg Anti-Spoofing Test Time: 0.126s
+2025-03-25 15:16:22,111 - HEALTH - Average Face Detection Confidence: 0.99
+2025-03-25 15:16:22,111 - INFO - Detected 1 faces.
+2025-03-25 15:16:22,201 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5283)
+2025-03-25 15:16:22,314 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:16:33,348 - HEALTH - System Health - CPU Usage: 6.3%, Memory Usage: 75.7%, Disk Usage: 35.3%
+2025-03-25 15:16:33,348 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:16:33,348 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.078s, Avg Anti-Spoofing Test Time: 0.108s
+2025-03-25 15:16:33,422 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:16:33,422 - INFO - Detected 1 faces.
+2025-03-25 15:16:33,505 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.4481)
+2025-03-25 15:16:33,669 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:16:44,696 - HEALTH - System Health - CPU Usage: 9.6%, Memory Usage: 75.8%, Disk Usage: 35.3%
+2025-03-25 15:16:44,697 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:16:44,697 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.070s, Avg Anti-Spoofing Test Time: 0.159s
+2025-03-25 15:16:44,775 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:16:44,775 - INFO - Detected 1 faces.
+2025-03-25 15:16:44,866 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5239)
+2025-03-25 15:16:44,989 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:16:56,017 - HEALTH - System Health - CPU Usage: 4.6%, Memory Usage: 75.9%, Disk Usage: 35.3%
+2025-03-25 15:16:56,017 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:16:56,017 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.075s, Avg Anti-Spoofing Test Time: 0.117s
+2025-03-25 15:16:56,098 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:16:56,099 - INFO - Detected 1 faces.
+2025-03-25 15:16:56,188 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5368)
+2025-03-25 15:16:56,309 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:17:07,335 - HEALTH - System Health - CPU Usage: 9.4%, Memory Usage: 76.4%, Disk Usage: 35.3%
+2025-03-25 15:17:07,335 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:17:07,335 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.077s, Avg Anti-Spoofing Test Time: 0.116s
+2025-03-25 15:17:07,419 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:17:07,419 - INFO - Detected 1 faces.
+2025-03-25 15:17:07,505 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6886)
+2025-03-25 15:17:07,628 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:17:14,447 - INFO - Gracefully stopping the face recognition process...
+2025-03-25 15:17:25,278 - INFO - Started face recognition process.
+2025-03-25 15:17:27,106 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:17:27,107 - INFO - Detected 1 faces.
+2025-03-25 15:17:27,204 - INFO - Recognition Result: Unknown (Distance: 0.9853)
+2025-03-25 15:17:27,327 - INFO - Real Face Detected: Unknown (Score: 1.00)
+2025-03-25 15:17:27,330 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:17:32,345 - DEBUG - Attempt 1: Unable to reach ESP32 Retrying...
+2025-03-25 15:17:35,354 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:17:40,364 - DEBUG - Attempt 2: Unable to reach ESP32 Retrying...
+2025-03-25 15:17:43,368 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:17:48,378 - DEBUG - Attempt 3: Unable to reach ESP32 Retrying...
+2025-03-25 15:17:51,383 - DEBUG - ESP32 not available after 3 attempts. Future ESP32 communication are Disabled automatically
+2025-03-25 15:19:51,158 - INFO - Started face recognition process.
+2025-03-25 15:19:53,489 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:19:53,489 - INFO - Detected 1 faces.
+2025-03-25 15:19:53,590 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.4963)
+2025-03-25 15:19:53,720 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:19:53,724 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:19:58,725 - DEBUG - Attempt 1: Unable to reach ESP32 Retrying...
+2025-03-25 15:20:01,727 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:20:06,730 - DEBUG - Attempt 2: Unable to reach ESP32 Retrying...
+2025-03-25 15:20:09,745 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:20:14,761 - DEBUG - Attempt 3: Unable to reach ESP32 Retrying...
+2025-03-25 15:20:17,771 - DEBUG - ESP32 not available after 3 attempts. Future ESP32 communication are Disabled automatically
+2025-03-25 15:20:28,800 - HEALTH - System Health - CPU Usage: 13.0%, Memory Usage: 75.9%, Disk Usage: 35.3%
+2025-03-25 15:20:28,800 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:20:28,800 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.087s, Avg Anti-Spoofing Test Time: 0.122s
+2025-03-25 15:20:28,875 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:20:28,875 - INFO - Detected 1 faces.
+2025-03-25 15:20:28,978 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5751)
+2025-03-25 15:20:29,099 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:20:40,124 - HEALTH - System Health - CPU Usage: 4.1%, Memory Usage: 75.8%, Disk Usage: 35.3%
+2025-03-25 15:20:40,124 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-25 15:20:40,124 - HEALTH - AI Metrics - Faces Processed: 1, Avg Face Embedding Inference Time: 0.088s, Avg Anti-Spoofing Test Time: 0.115s
+2025-03-25 15:20:40,188 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:20:40,188 - INFO - Detected 1 faces.
+2025-03-25 15:20:40,269 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.6428)
+2025-03-25 15:20:40,380 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:20:50,164 - INFO - Gracefully stopping the face recognition process...
+2025-03-25 15:20:58,049 - INFO - Started face recognition process.
+2025-03-25 15:20:59,865 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-25 15:20:59,865 - INFO - Detected 1 faces.
+2025-03-25 15:20:59,962 - INFO - Recognition Result: ahsan latif_78382201 (Distance: 0.5798)
+2025-03-25 15:21:00,087 - INFO - Real Face Detected: ahsan latif_78382201 (Score: 1.00)
+2025-03-25 15:21:00,090 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:21:05,095 - DEBUG - Attempt 1: Unable to reach ESP32 Retrying...
+2025-03-25 15:21:08,103 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-25 15:21:13,104 - DEBUG - Attempt 2: Unable to reach ESP32 Retrying...
+2025-03-27 14:06:15,695 - INFO - Started face recognition process.
+2025-03-27 14:06:19,068 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:06:19,122 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-27 14:06:24,134 - DEBUG - Attempt 1: Unable to reach ESP32 Retrying...
+2025-03-27 14:06:27,139 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-27 14:06:32,152 - DEBUG - Attempt 2: Unable to reach ESP32 Retrying...
+2025-03-27 14:06:35,159 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-27 14:06:40,166 - DEBUG - Attempt 3: Unable to reach ESP32 Retrying...
+2025-03-27 14:06:43,173 - DEBUG - ESP32 not available after 3 attempts. Future ESP32 communication are Disabled automatically
+2025-03-27 14:06:49,214 - HEALTH - System Health - CPU Usage: 2.8%, Memory Usage: 58.5%, Disk Usage: 35.3%
+2025-03-27 14:06:49,214 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:06:49,214 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:06:49,248 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:06:54,289 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:07:00,312 - HEALTH - System Health - CPU Usage: 7.5%, Memory Usage: 58.5%, Disk Usage: 35.3%
+2025-03-27 14:07:00,312 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:07:00,312 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:07:00,345 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:07:05,391 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:07:11,422 - HEALTH - System Health - CPU Usage: 7.6%, Memory Usage: 58.8%, Disk Usage: 35.3%
+2025-03-27 14:07:11,422 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:07:11,422 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:07:11,453 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:07:16,508 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:07:22,535 - HEALTH - System Health - CPU Usage: 2.9%, Memory Usage: 58.8%, Disk Usage: 35.3%
+2025-03-27 14:07:22,535 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:07:22,535 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:07:22,551 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:07:27,584 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:07:33,615 - HEALTH - System Health - CPU Usage: 3.0%, Memory Usage: 58.8%, Disk Usage: 35.3%
+2025-03-27 14:07:33,615 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:07:33,615 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:07:33,644 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:07:38,683 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:07:44,714 - HEALTH - System Health - CPU Usage: 48.7%, Memory Usage: 58.7%, Disk Usage: 35.3%
+2025-03-27 14:07:44,714 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:07:44,714 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:07:44,745 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:07:49,789 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:07:55,820 - HEALTH - System Health - CPU Usage: 37.3%, Memory Usage: 58.8%, Disk Usage: 35.3%
+2025-03-27 14:07:55,820 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:07:55,820 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:07:55,869 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:08:00,894 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:08:06,989 - HEALTH - System Health - CPU Usage: 19.4%, Memory Usage: 58.8%, Disk Usage: 35.3%
+2025-03-27 14:08:06,989 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:08:06,989 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:08:07,014 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:08:12,061 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:08:18,087 - HEALTH - System Health - CPU Usage: 0.9%, Memory Usage: 58.7%, Disk Usage: 35.3%
+2025-03-27 14:08:18,087 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:08:18,087 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:08:18,125 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:08:23,166 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:08:29,199 - HEALTH - System Health - CPU Usage: 2.6%, Memory Usage: 58.6%, Disk Usage: 35.3%
+2025-03-27 14:08:29,199 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:08:29,199 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:08:29,225 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:08:34,259 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:08:40,288 - HEALTH - System Health - CPU Usage: 7.3%, Memory Usage: 58.6%, Disk Usage: 35.3%
+2025-03-27 14:08:40,288 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:08:40,288 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:08:40,316 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:08:45,345 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:08:51,372 - HEALTH - System Health - CPU Usage: 6.4%, Memory Usage: 58.6%, Disk Usage: 35.3%
+2025-03-27 14:08:51,374 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:08:51,374 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:08:51,399 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:08:56,441 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:09:02,478 - HEALTH - System Health - CPU Usage: 5.6%, Memory Usage: 58.5%, Disk Usage: 35.3%
+2025-03-27 14:09:02,478 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:09:02,479 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:09:02,502 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:09:07,540 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:09:13,572 - HEALTH - System Health - CPU Usage: 2.0%, Memory Usage: 58.6%, Disk Usage: 35.3%
+2025-03-27 14:09:13,572 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:09:13,572 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:09:13,604 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:09:18,629 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:09:24,661 - HEALTH - System Health - CPU Usage: 1.4%, Memory Usage: 58.6%, Disk Usage: 35.3%
+2025-03-27 14:09:24,661 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:09:24,661 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:09:24,677 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:09:29,722 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:09:35,736 - HEALTH - System Health - CPU Usage: 3.2%, Memory Usage: 58.1%, Disk Usage: 35.3%
+2025-03-27 14:09:35,736 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:09:35,736 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:09:35,768 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:09:40,812 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:09:46,843 - HEALTH - System Health - CPU Usage: 1.8%, Memory Usage: 58.0%, Disk Usage: 35.3%
+2025-03-27 14:09:46,843 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:09:46,843 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:09:46,870 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:09:51,910 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:09:57,945 - HEALTH - System Health - CPU Usage: 4.6%, Memory Usage: 57.9%, Disk Usage: 35.3%
+2025-03-27 14:09:57,945 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:09:57,945 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:09:57,980 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:10:03,045 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:10:09,079 - HEALTH - System Health - CPU Usage: 30.7%, Memory Usage: 57.9%, Disk Usage: 35.3%
+2025-03-27 14:10:09,079 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:10:09,079 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:10:09,095 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:10:14,139 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:10:20,152 - HEALTH - System Health - CPU Usage: 5.6%, Memory Usage: 57.8%, Disk Usage: 35.3%
+2025-03-27 14:10:20,152 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:10:20,152 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:10:20,183 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:10:25,238 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:10:31,285 - HEALTH - System Health - CPU Usage: 3.7%, Memory Usage: 57.9%, Disk Usage: 35.3%
+2025-03-27 14:10:31,285 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:10:31,285 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:10:31,301 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:10:36,330 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:10:42,416 - HEALTH - System Health - CPU Usage: 31.6%, Memory Usage: 57.8%, Disk Usage: 35.3%
+2025-03-27 14:10:42,416 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:10:42,416 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:10:42,497 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:10:47,534 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:10:53,561 - HEALTH - System Health - CPU Usage: 1.3%, Memory Usage: 57.9%, Disk Usage: 35.3%
+2025-03-27 14:10:53,561 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:10:53,561 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:10:53,601 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:10:58,643 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:11:04,665 - HEALTH - System Health - CPU Usage: 2.3%, Memory Usage: 57.8%, Disk Usage: 35.3%
+2025-03-27 14:11:04,665 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:11:04,665 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:11:04,693 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:11:09,738 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:11:15,756 - HEALTH - System Health - CPU Usage: 0.8%, Memory Usage: 57.8%, Disk Usage: 35.3%
+2025-03-27 14:11:15,756 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:11:15,756 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:11:15,780 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:11:20,822 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:11:26,854 - HEALTH - System Health - CPU Usage: 3.5%, Memory Usage: 54.6%, Disk Usage: 35.3%
+2025-03-27 14:11:26,854 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:11:26,854 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:11:26,886 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:11:31,960 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:11:36,594 - INFO - Started face recognition process.
+2025-03-27 14:11:38,570 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:11:38,570 - ERROR - Unexpected error in main System: 'charmap' codec can't encode character '\U0001f634' in position 0: character maps to <undefined>
+2025-03-27 14:11:43,610 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:11:43,610 - ERROR - Unexpected error in main System: 'charmap' codec can't encode character '\U0001f634' in position 0: character maps to <undefined>
+2025-03-27 14:11:49,630 - HEALTH - System Health - CPU Usage: 1.5%, Memory Usage: 55.5%, Disk Usage: 35.3%
+2025-03-27 14:11:49,630 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:11:49,630 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:11:49,674 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:11:49,676 - ERROR - Unexpected error in main System: 'charmap' codec can't encode character '\U0001f634' in position 0: character maps to <undefined>
+2025-03-27 14:11:54,721 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:11:54,721 - ERROR - Unexpected error in main System: 'charmap' codec can't encode character '\U0001f634' in position 0: character maps to <undefined>
+2025-03-27 14:12:00,739 - HEALTH - System Health - CPU Usage: 2.1%, Memory Usage: 55.5%, Disk Usage: 35.3%
+2025-03-27 14:12:00,739 - HEALTH - GPUtil not available; GPU usage not logged.
+2025-03-27 14:12:00,739 - HEALTH - AI Metrics - No faces processed in this interval.
+2025-03-27 14:12:00,769 - INFO - \U0001f634 No faces detected. Sleeping for 5 seconds...
+2025-03-27 14:12:00,771 - ERROR - Unexpected error in main System: 'charmap' codec can't encode character '\U0001f634' in position 0: character maps to <undefined>
+2025-03-27 14:12:07,133 - HEALTH - Average Face Detection Confidence: 1.00
+2025-03-27 14:12:07,133 - INFO - Detected 1 faces.
+2025-03-27 14:12:07,646 - INFO - Recognition Result: ahsan latif_7838220 (Distance: 0.7393)
+2025-03-27 14:12:07,983 - INFO - Real Face Detected: ahsan latif_7838220 (Score: 0.99)
+2025-03-27 14:12:07,999 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-27 14:12:13,006 - DEBUG - Attempt 1: Unable to reach ESP32 Retrying...
+2025-03-27 14:12:16,010 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-27 14:12:21,023 - DEBUG - Attempt 2: Unable to reach ESP32 Retrying...
+2025-03-27 14:12:24,026 - DEBUG - Starting new HTTP connection (1): 192.168.43.199:80
+2025-03-27 14:19:00,417 - INFO - User 'john doe_335522' added to the database.

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" sizes="32x32" href="/imagess/attendeaselogo.png">
+  <title>Student Portal</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="/CSS/User/settings.css">
+</head>
+<body>
+   <div class="container">
+
+    <aside>
+      <div class="top">
+        <h2 class="logo1"> AttendEase </h2>
+        <div class="close" id="close_btn">
+          <span class="material-symbols-sharp">close</span>
+        </div>
+      </div>
+      <div class="sidebar">
+        <a href="/Dashboard" class="nav-link"><lord-icon src="https://cdn.lordicon.com/cnpvyndp.json" colors="primary:#D455E6"class="icon"></lord-icon><h3>Dashboard</h3></a>
+        <a href="/TimeTable" class="nav-link"><lord-icon src="https://cdn.lordicon.com/abfverha.json"  colors="primary:#D455E6"class="icon"></lord-icon><h3>Time Table</h3></a>
+        <a href="/Analysis" class="nav-link"><lord-icon src="https://cdn.lordicon.com/whrxobsb.json"  colors="primary:#D455E6"class="icon"></lord-icon><h3>Analysis</h3></a>
+        <a href="/Profile" class="nav-link"><lord-icon src="https://cdn.lordicon.com/hrjifpbq.json" colors="primary:#D455E6" class="icon"></lord-icon><h3>Profile</h3></a>
+        <a href="/Notification" class="nav-link"><lord-icon src="https://cdn.lordicon.com/vspbqszr.json" colors="primary:#D455E6" class="icon"></lord-icon><h3>Notifications</h3><span class="msg_count" id="unread-count">14</span></a>
+        <a href="/Settings" class="active"><lord-icon src="https://cdn.lordicon.com/lecprnjb.json" colors="primary:#D455E6" class="icon"></lord-icon><h3>Settings</h3></a>
+        <a href="/" class="nav-link"><lord-icon src="https://cdn.lordicon.com/nqtddedc.json" colors="primary:#D455E6" class="icon"></lord-icon><h3>Logout</h3></a>
+      </div>
+    </aside>
+
+
+      <main>
+        <div class="recent_order">
+          <h2>Settings</h2>
+          <p>Change my password</p>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="password_box">
+                    <input type="password" placeholder="Enter current password">
+                    <input type="password" placeholder="Enter new password">
+                    <input type="password" placeholder="Confirm new password">
+                    <button class="save_btn">Save</button>
+                  </div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="recent_order">
+          <p>Time and Date Settings</p>
+          <table>
+              <tbody>
+                  <tr>
+                      <td>
+                          <div class="settings_box">
+                            <form id="settingsForm">
+                              <label for="timezone">Timezone:</label>
+                              <select id="timezone" name="timezone">
+                                  <option value="UTC">UTC</option>
+                                  <option value="America/New_York">Eastern Time (ET)</option>
+                                  <option value="Asia/Kolkata">India (IST)</option>
+                                  <option value="America/Chicago">Central Time (CT)</option>
+                                  <option value="America/Denver">Mountain Time (MT)</option>
+                                  <option value="America/Los_Angeles">Pacific Time (PT)</option>
+                                  <option value="Europe/London">London (GMT)</option>
+                                  <option value="Asia/Tokyo">Japan (JST)</option>
+                                  <option value="Australia/Sydney">Sydney (AEST)</option>
+                              </select>
+
+                              <label for="time_format">Time Format:</label>
+                              <select id="time_format" name="time_format">
+                                  <option value="12-hour">12-Hour Format (AM/PM)</option>
+                                  <option value="24-hour">24-Hour Format</option>
+                              </select>
+
+                              <button class="save_btn">Save</button>
+                          </form>
+
+                          </div>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+      </main>
+
+      <!------------------
+         end main
+        ------------------->
+
+      <!----------------
+        start right main
+      ---------------------->
+    <div class="right">
+
+<div class="top">
+   <button id="menu_bar">
+<lord-icon
+    src="https://cdn.lordicon.com/nizfqlnk.json"
+    trigger="hover"
+    colors="primary:#D455E6"
+    style="width:40px;height:40px">
+</lord-icon>
+   </button>
+   <div class="theme-toggler">
+     <span class="material-symbols-sharp active">light_mode</span>
+     <span class="material-symbols-sharp">dark_mode</span>
+   </div>
+    <div class="profile">
+       <div class="info">
+           <b><p id="name"></p></b>
+           <p id="role"></p>
+           <small class="text-muted"></small>
+       </div>
+    </div>
+</div>
+
+<div class="recent_updates">
+  <h2>FAQs!</h2>
+      <div class="updates">How do I reset my password?</div>
+      <div class="updates">How do I access my attendance details?</div>
+      <div class="updates">How do I request an excused absense?</div>
+  </div>
+</div>
+
+
+
+
+</div>
+
+
+   </div>
+<script>
+    document.querySelector(".active").addEventListener("mouseenter", function () {
+  this.querySelector(".icon").setAttribute("trigger", "in");
+});
+
+
+document.querySelectorAll(".nav-link").forEach(link => {
+    link.addEventListener("mouseenter", () => {
+        link.querySelector(".icon").setAttribute("trigger", "in");
+    });
+
+});
+
+</script>
+
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+   <script src="/JavaScript/User/analysis.js"></script>
+</body>
+</html>
