@@ -129,4 +129,14 @@ Please respect individual file licenses and seek permission from the respective 
 
 ---
 
+🌍 Vision & Problem Statement
+
+Traditional attendance systems in universities are either inefficient or easily bypassed. QR codes are instantly shared in group chats, RFID and fingerprint systems cause delays or can be spoofed, and manual roll calls waste valuable lecture time without guaranteeing real participation. Existing facial recognition tools also fall short, being vulnerable to spoofing and unable to track how long students remain in class.
+
+AttendEase solves these problems by combining facial recognition with anti-spoofing and automated time tracking. The system logs attendance seamlessly as students enter and exit, ensuring accuracy to the second while preventing fraudulent check-ins. This reduces administrative overhead, saves up to 10 minutes per lecture, and provides real-time, reliable reports.
+
+Our vision is to make attendance frictionless and secure, starting with universities but scalable to corporate offices and other environments requiring robust identity verification.
+
+---
+
 
