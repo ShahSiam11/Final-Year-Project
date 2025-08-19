@@ -129,7 +129,7 @@ Please respect individual file licenses and seek permission from the respective 
 
 ---
 
-🌍 Vision & Problem Statement
+# Vision & Problem Statement
 
 Traditional attendance systems in universities are either inefficient or easily bypassed. QR codes are instantly shared in group chats, RFID and fingerprint systems cause delays or can be spoofed, and manual roll calls waste valuable lecture time without guaranteeing real participation. Existing facial recognition tools also fall short, being vulnerable to spoofing and unable to track how long students remain in class.
 
@@ -139,4 +139,24 @@ Our vision is to make attendance frictionless and secure, starting with universi
 
 ---
 
+# My Role as Product Owner & Project Manager
 
+While AttendEase was a collaborative project, I acted as the product owner and project manager, guiding both the technical and strategic direction. 
+
+My contributions included:
+
+- **Defining the vision and requirements**: Identified inefficiencies in existing attendance systems and translated them into clear, testable requirements for the team.
+
+- **System design & integration leadership**: Designed the end-to-end architecture, authored core modules (AttendanceLogFace.py, Reconfigure.py, IPModeMain.py), and integrated contributions from teammates into a unified system.
+
+- **Team & project management**: Coordinated task division, maintained timelines, and resolved design disputes to keep development aligned with the core vision.
+
+- **Testing & quality assurance**: Led the testing strategy, combining functional, non-functional, and usability testing to validate accuracy, performance, and reliability.
+
+- **Iterative improvement**: Identified bottlenecks (e.g., lag from logging delays, spoofing attempts, low-light failures) and drove fixes through threading, image enhancement, and automation features.
+
+- **Documentation & stakeholder communication**: Produced requirement analysis, system design docs, test plans, and Figma prototypes, ensuring the product was both technically sound and clearly communicated.
+
+This role required balancing _technical implementation_ with _product thinking_, ensuring AttendEase delivered not just working code but a reliable, scalable, and user-focused solution — ultimately earning a **High Distinction**.
+
+---
