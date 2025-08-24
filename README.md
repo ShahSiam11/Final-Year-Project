@@ -161,7 +161,6 @@ This role required balancing _technical implementation_ with _product thinking_,
 
 ---
 
-Perfect — your answers show you were thinking like a **product owner/strategist** the whole way: balancing usability, cost, deployment, scalability, and real-world constraints. Here’s a **System Design & Decisions** section you can put into your README that reflects those trade-offs and shows your decision-making:
 
 ---
 
@@ -186,11 +185,6 @@ As Product Owner and Project Manager, I focused not only on technical implementa
 * **Scalability Vision**: AttendEase was scoped as a **single-campus MVP**, with the long-term vision as a **SaaS platform** where each institution runs its own instance on local servers. This provides flexibility, scalability, and tenant-level data isolation.
 
 These design decisions reflect how I balanced **technical feasibility, user experience, and long-term strategy** under academic and financial constraints, ensuring AttendEase functioned not just as a demo but as a **deployable and extensible product**.
-
----
-Excellent — your answers make it clear you ran testing like a **product QA lead**, not just a coder. You defined KPIs, tied them to requirements with a traceability matrix, tested across multiple conditions, and drove **iterative improvements** rather than treating testing as a checkbox.
-
-Here’s how I’d write the **Testing & Validation** section for your README to highlight your **product ownership, project management, and strategist mindset**:
 
 ---
 
@@ -221,9 +215,6 @@ Testing was approached not as a final step but as an **iterative validation cycl
 * **Manual input friction** (RTSP, thresholds) → added automation for camera setup and threshold synchronization.
 
 Testing was not about proving the system “worked” once, but about **finding the design, thresholds, and frameworks that delivered consistently above-satisfactory results** across domains and constraints.
-
----
-Perfect — your answers are sharp and very **strategist-oriented**: respecting institutional culture, balancing automation with control, and designing for adoption rather than enforcement. Here’s a polished **Business & Policy Layer** section for your README:
 
 ---
 
